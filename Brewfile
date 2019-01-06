@@ -1,5 +1,6 @@
 # Applications
 tap 'caskroom/cask'
+brew 'cask'
 cask_args appdir: '/Applications'
 
 # Web applications
@@ -35,12 +36,10 @@ cask 'amazon-music'
 cask 'atom'
 cask 'bartender'
 cask 'beardedspice'
-brew 'cask'
 cask 'encryptme'
 cask 'github'
 # brew 'gpg'
 cask 'local-by-flywheel'
 cask 'send-to-kindle'
 cask 'signal'
-cask 'skitch'
 cask 'sophos-anti-virus-home-edition'
