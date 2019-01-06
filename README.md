@@ -20,5 +20,6 @@ Manually install:
 - HP Smart
 - Pokemon TGC
 - Sonos
+- Sophos
 
 Consider also: https://github.com/taniarascia/mac
