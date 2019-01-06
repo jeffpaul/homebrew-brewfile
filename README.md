@@ -7,7 +7,6 @@ Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/ma
 
 Dropbox sync only:
 - Downloads
-- Music
 - ZSUZSI
 
 Choosy prefs:
