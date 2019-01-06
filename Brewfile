@@ -15,7 +15,6 @@ cask 'zoomus'
 
 # Passwords
 cask 'keybase'
-cask 'lastpass'
 cask 'gpg-suite'
 
 # File sharing apps
