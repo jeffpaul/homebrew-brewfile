@@ -14,7 +14,7 @@ cask 'wavebox'
 cask 'zoomus'
 
 # Passwords
-brew 'keybase'
+cask 'keybase'
 cask 'lastpass'
 cask 'gpg-suite'
 
