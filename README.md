@@ -17,7 +17,6 @@ Choosy prefs:
 - h: google.com/hangouts/
 
 Manually install:
-- HP Smart
 - Pokemon TGC
 - Sonos
 - Sophos
