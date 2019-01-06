@@ -30,5 +30,3 @@ My MacBook Brewfile
 - alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 - source ~/.bash_profile
 - DAILY CHECK: brewup
-
-Consider also: https://github.com/taniarascia/mac
