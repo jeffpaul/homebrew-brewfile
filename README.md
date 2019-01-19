@@ -14,9 +14,9 @@ My MacBook Brewfile
 - Show Library folder: chflags nohidden ~/Library
 - Show hidden files: defaults write com.apple.finder AppleShowAllFiles YES
 4) Manually install:
-- Pokemon TGC
-- Sonos
-- Sophos
+- [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
+- [Sonos](https://www.sonos.com/en-us/support)
+- [Sophos](https://home.sophos.com/en-us.aspx)
 5) Dropbox sync only:
 - Downloads
 - ZSUZSI
