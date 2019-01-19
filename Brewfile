@@ -23,6 +23,7 @@ cask 'dropbox'
 
 ## App Store
 mas 'Brother iPrint&Scan', id: 1193539993
+mas 'HP Easy Scan', id: 967004861
 mas 'HP Smart', id: 469284907
 mas 'Keynote', id: 409183694
 mas 'Memory Clean 3', id: 1302310792
