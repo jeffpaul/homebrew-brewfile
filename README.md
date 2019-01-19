@@ -14,6 +14,7 @@ My MacBook Brewfile
 - Show Library folder: chflags nohidden ~/Library
 - Show hidden files: defaults write com.apple.finder AppleShowAllFiles YES
 4) Manually install:
+- [HP Easy Start](https://support.hp.com/us-en/drivers/selfservice/closure/hp-officejet-pro-8720-all-in-one-printer-series/7902032/model/7902033?sku=M9L74A)
 - [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
 - [Sonos](https://www.sonos.com/en-us/support)
 - [Sophos](https://home.sophos.com/en-us.aspx)
