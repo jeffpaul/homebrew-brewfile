@@ -18,7 +18,7 @@ My MacBook Brewfile
 - [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
 - [Sonos](https://www.sonos.com/en-us/support)
 - [Sophos](https://home.sophos.com/en-us.aspx)
-- [OWC Thunderbolt Dock Driver](https://www.owcdigital.com/support/software-drivers)
+- [1.1.1.1 DNS](https://1.1.1.1/dns/)
 5) Dropbox sync only:
 - Downloads
 - ZSUZSI
