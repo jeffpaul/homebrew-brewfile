@@ -25,6 +25,7 @@ My MacBook Brewfile
 - Software Update > Automatically keep my Mac up to date
 - Software Update > Advanced > Install macOS updates
 - Software Update > Advanced > Install app updates from the App Store
+- Desktop > Use Stacks
 
 5) Terminal commands
 - Show Library folder: chflags nohidden ~/Library
