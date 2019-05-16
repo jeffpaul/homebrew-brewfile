@@ -22,7 +22,7 @@ cask 'gpg-suite'
 cask 'dropbox'
 
 ## App Store
-mas signin jeffpaul@hotmail.com
+mas signin --dialog jeffpaul@hotmail.com
 mas 'Brother iPrint&Scan', id: 1193539993
 mas 'HP Easy Scan', id: 967004861
 mas 'HP Smart', id: 469284907
