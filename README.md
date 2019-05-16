@@ -15,6 +15,7 @@ My MacBook Brewfile
 - Bluetooth > Show Bluetooth in menu bar
 - Date & Time > Clock > Show date
 - Desktop & Screen Saver > Desktop > + > Dropbox > ZSUZSI
+- Dock > Minimize windows into application icon
 - Dock > Automatically hide and show the Dock
 - Dock > (DISABLE) Show recent applications in Dock
 - Mouse > Point & Click > Secondary click > Click on right side
