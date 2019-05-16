@@ -13,6 +13,7 @@ My MacBook Brewfile
 
 4) macOS Preferences:
 - Bluetooth > Show Bluetooth in menu bar
+- Dock > Automatically hide and show the Dock
 - Mouse > Point & Click > Secondary click > Click on right side
 - Security and Privacy > General > App Store and identified developers
 - Security and Privacy > General > Allow your Apple Watch to unlock your Mac
@@ -55,7 +56,14 @@ My MacBook Brewfile
   - Always user this browser... Google Chrome
   - Enabled > OK
 
-9) Remove from Dock:
+9) Slack workspaces:
+- 10up
+- wordpress
+- cmssecuritysummit
+- poststatus
+- thetodogroup
+
+10) Remove from Dock:
 - Calendar
 - Contacts
 - Facetime
@@ -74,11 +82,15 @@ My MacBook Brewfile
 - Siri
 - System Preferences
 
-10) Keep in Dock:
-- Amazon Music
-- Firefox
-- Slack
-- Sonos
+11) Keep in Dock:
+- Finder
 - Wavebox
+- Slack
+- Firefox
+- Local by Flywheel
+- Amazon Music
+- Sonos
+- Notes
+- zoom.us
+- Messages
 - Wunderlist
-- Zoom
