@@ -13,7 +13,10 @@ My MacBook Brewfile
 
 4) macOS Preferences:
 - Bluetooth > Show Bluetooth in menu bar
+- Date & Time > Clock > Show date
+- Desktop & Screen Saver > Desktop > + > Dropbox > ZSUZSI
 - Dock > Automatically hide and show the Dock
+- Dock > (DISABLE) Show recent applications in Dock
 - Mouse > Point & Click > Secondary click > Click on right side
 - Security and Privacy > General > App Store and identified developers
 - Security and Privacy > General > Allow your Apple Watch to unlock your Mac
@@ -81,6 +84,7 @@ My MacBook Brewfile
 - Send to Kindle
 - Siri
 - System Preferences
+- Terminal
 
 11) Keep in Dock:
 - Finder
@@ -94,3 +98,23 @@ My MacBook Brewfile
 - zoom.us
 - Messages
 - Wunderlist
+
+12) Bartender preferences:
+- Menu Items > AirPort - Wi-Fi > Menu bar item should > Hide
+- Menu Items > Airplay Displays > Menu bar item should > Hide
+- Menu Items > BeardedSpice > Menu bar item should > Hide
+- Menu Items > Dropbox > Menu bar item should > Hide
+- Menu Items > Sophos Home > Menu bar item should > Hide
+- Menu Items > Siri > Menu bar item should > Hide
+- Menu Items > WunderlistHelper > Menu bar item should > Hide
+- General > Open Bartender at login
+
+13) Wunderlist preferences:
+- General > Open Wunderlist at startup
+
+14) Memory Clean 3 preferences:
+- Dock Window
+- General > Hide window at startup
+- App Management > (DISABLE) Notify me when apps become inactive
+- Advanced > Threshold level: 2000 MB
+- Advanced > Auto clean
