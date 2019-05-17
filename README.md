@@ -46,6 +46,7 @@ My MacBook Brewfile
 
 7) Dropbox sync only:
 - Downloads
+- Music > iTunes > iTunes Media > Music
 - ZSUZSI
 
 8) Choosy prefs:
