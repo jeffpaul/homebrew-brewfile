@@ -38,6 +38,7 @@ My MacBook Brewfile
   - DAILY CHECK: brewup
 
 6) Manually install:
+- [Google Drive Filestream](https://www.google.com/drive/download/)
 - [HP Easy Start & HP Firmware Updater](https://support.hp.com/us-en/drivers/selfservice/closure/hp-officejet-pro-8720-all-in-one-printer-series/7902032/model/7902033?sku=M9L74A)
 - [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
 - [Sonos](https://www.sonos.com/en-us/support)
@@ -138,10 +139,27 @@ My MacBook Brewfile
 19) Mail preferences:
 - General > Downloads folder: Dropbox/Downloads
 
-20) Finder sidebar
+20) Keybase settings
+- Files > Enable Keybase in Finder
+
+21) Local by Flywheel settings
+- Local site path: Dropbox/Local Sites
+
+22) Finder sidebar
+- (KEEP) AirDrop
 - (KEEP) Appications
 - Downloads > Remove from Sidebar
 - Dropbox/Downloads > Add to Sidebar
 - (KEEP) Dropbox
 - Dropbox/GitHub > Add to Sidebar
+- Google Drive > Add to Sidebar
 - jeffpaul > Add to Sidebar
+- (KEEP) Keybase
+- Dropbox/Local Sites > Add to Sidebar
+- (KEEP) Recents
+
+23) Finder preferences
+- General > Show these items on the desktop: (DISABLE) External disks
+- General > Show these items on the desktop: (DISABLE) CDs, DVDs, and iPods
+- General > New Finder windows show: Dropbox/Downloads
+- Advanced > Show all filename extensions
