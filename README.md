@@ -121,3 +121,27 @@ My MacBook Brewfile
 - App Management > (DISABLE) Notify me when apps become inactive
 - Advanced > Threshold level: 2000 MB
 - Advanced > Auto clean
+
+15) iTunes preferences:
+- Advanced > iTunes Media folder location: /Users/jeffpaul/Dropbox/Music/iTunes/iTunes Media/Music
+
+16) Safari preferences:
+- General > File download location: Dropbox/Downloads
+
+17 ) Firefox preferences:
+- General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
+- Search > Default Search Engine: DuckDuckGo
+
+18 ) Chrome preferences:
+- Advanced > Downloads > Location: Dropbox/Downloads
+
+19) Mail preferences:
+- General > Downloads folder: Dropbox/Downloads
+
+20) Finder sidebar
+- (KEEP) Appications
+- Downloads > Remove from Sidebar
+- Dropbox/Downloads > Add to Sidebar
+- (KEEP) Dropbox
+- Dropbox/GitHub > Add to Sidebar
+- jeffpaul > Add to Sidebar
