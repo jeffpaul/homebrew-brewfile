@@ -63,12 +63,14 @@ My MacBook Brewfile
   - Always user this browser... Google Chrome
   - Enabled > OK
 
-9) Slack workspaces:
-- 10up
-- wordpress
-- cmssecuritysummit
-- poststatus
-- thetodogroup
+9) Slack settings
+- Workspaces:
+  - 10up
+  - wordpress
+  - cmssecuritysummit
+  - poststatus
+  - thetodogroup
+- Advanced > Download Location: Dropbox/Downloads
 
 10) Remove from Dock:
 - Calendar
