@@ -163,3 +163,8 @@ My MacBook Brewfile
 - General > Show these items on the desktop: (DISABLE) CDs, DVDs, and iPods
 - General > New Finder windows show: Dropbox/Downloads
 - Advanced > Show all filename extensions
+
+24) zoom.us preferences
+- General > (DISABLE) Prompt a confirmation before leaving a meeting
+- Video > My Video > Enable HD
+- Video > Meetings > Always display participant name on their videos
