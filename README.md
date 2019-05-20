@@ -14,6 +14,7 @@ My MacBook Brewfile
 4) macOS Preferences:
 - Bluetooth > Show Bluetooth in menu bar
 - Date & Time > Clock > Show date
+- Desktop > Use Stacks
 - Desktop & Screen Saver > Desktop > + > Dropbox > ZSUZSI
 - Dock > Minimize windows into application icon
 - Dock > Automatically hide and show the Dock
@@ -26,7 +27,7 @@ My MacBook Brewfile
 - Software Update > Automatically keep my Mac up to date
 - Software Update > Advanced > Install macOS updates
 - Software Update > Advanced > Install app updates from the App Store
-- Desktop > Use Stacks
+- Sound > Show volume in menu bar
 
 5) Terminal commands
 - Show Library folder: chflags nohidden ~/Library
