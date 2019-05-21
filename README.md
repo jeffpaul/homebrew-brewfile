@@ -171,3 +171,7 @@ My MacBook Brewfile
 - General > (DISABLE) Prompt a confirmation before leaving a meeting
 - Video > My Video > Enable HD
 - Video > Meetings > Always display participant name on their videos
+
+25) Messages preferences
+- General > Save history when conversations are closed
+- Save received files to: Dropbox/Downloads
