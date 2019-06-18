@@ -44,4 +44,8 @@ cask 'gpg-suite'
 cask 'local-by-flywheel'
 cask 'send-to-kindle'
 cask 'signal'
+
+# Python and related tools setup
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 brew install python
+pip install octohatrack
