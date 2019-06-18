@@ -44,3 +44,4 @@ cask 'gpg-suite'
 cask 'local-by-flywheel'
 cask 'send-to-kindle'
 cask 'signal'
+brew install python
