@@ -175,3 +175,7 @@ My MacBook Brewfile
 25) Messages preferences
 - General > Save history when conversations are closed
 - Save received files to: Dropbox/Downloads
+
+26) Amazon Music preferences
+- General > Download Location: /Users/jeffpaul/Dropbox/Amazon Music
+- (DISABLE) Advanced > Launch automatically on computer startup
