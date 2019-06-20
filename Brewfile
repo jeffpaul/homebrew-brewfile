@@ -13,6 +13,7 @@ cask 'skype'
 cask 'slack'
 cask 'wavebox'
 cask 'zoomus'
+cask 'signal'
 
 # Passwords
 cask 'keybase'
@@ -40,12 +41,5 @@ cask 'beardedspice'
 cask 'cloudup'
 cask 'encryptme'
 cask 'github'
-cask 'gpg-suite'
 cask 'local-by-flywheel'
 cask 'send-to-kindle'
-cask 'signal'
-
-# Python and related tools setup
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-brew install python
-pip install octohatrack
