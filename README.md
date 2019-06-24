@@ -45,6 +45,8 @@ My MacBook Brewfile
 - [Sonos](https://www.sonos.com/en-us/support)
 - [Sophos](https://home.sophos.com/en-us.aspx)
 - [1.1.1.1 DNS](https://1.1.1.1/dns/)
+- [Logitech HD Pro Webcam C920](https://support.logitech.com/en_us/product/hd-pro-webcam-c920/downloads#)
+- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/)
 
 7) Dropbox sync only:
 - Downloads
