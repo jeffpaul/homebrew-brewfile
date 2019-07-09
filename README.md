@@ -181,3 +181,8 @@ My MacBook Brewfile
 26) Amazon Music preferences
 - General > Download Location: /Users/jeffpaul/Dropbox/Amazon Music
 - (DISABLE) Advanced > Launch automatically on computer startup
+
+27) HP Easy Scan preferences
+- Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
+- Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
+- Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
