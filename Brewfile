@@ -43,3 +43,4 @@ cask 'encryptme'
 cask 'github'
 cask 'local-by-flywheel'
 cask 'send-to-kindle'
+brew install wp-cli
