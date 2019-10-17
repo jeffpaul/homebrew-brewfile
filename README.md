@@ -138,6 +138,7 @@ My MacBook Brewfile
 17 ) Firefox preferences:
 - General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
 - Search > Default Search Engine: DuckDuckGo
+- about:config > (ENABLE) dom.forms.selectSearch
 
 18 ) Chrome preferences:
 - Advanced > Downloads > Location: Dropbox/Downloads
