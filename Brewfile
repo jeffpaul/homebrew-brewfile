@@ -46,3 +46,4 @@ cask 'local-by-flywheel'
 cask 'logitech-presentation'
 cask 'send-to-kindle'
 brew install wp-cli
+brew install node
