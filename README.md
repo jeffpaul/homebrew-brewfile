@@ -113,7 +113,6 @@ My MacBook Brewfile
 12) Bartender preferences:
 - Menu Items > AirPort - Wi-Fi > Menu bar item should > Hide
 - Menu Items > Airplay Displays > Menu bar item should > Hide
-- Menu Items > BeardedSpice > Menu bar item should > Hide
 - Menu Items > Dropbox > Menu bar item should > Hide
 - Menu Items > Sophos Home > Menu bar item should > Hide
 - Menu Items > Siri > Menu bar item should > Hide
