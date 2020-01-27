@@ -38,7 +38,6 @@ mas 'Wunderlist', id: 410628904
 cask 'amazon-music'
 cask 'atom'
 cask 'bartender'
-cask 'beardedspice'
 cask 'cloudup'
 cask 'encryptme'
 cask 'github'
