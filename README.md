@@ -102,7 +102,7 @@ My MacBook Brewfile
 - Wavebox
 - Slack
 - Firefox
-- Local by Flywheel
+- Local
 - Amazon Music
 - Sonos
 - Notes
@@ -149,7 +149,7 @@ My MacBook Brewfile
 20) Keybase settings
 - Files > Enable Keybase in Finder
 
-21) Local by Flywheel settings
+21) Local settings
 - Local site path: Dropbox/Local Sites
 
 22) Finder sidebar
