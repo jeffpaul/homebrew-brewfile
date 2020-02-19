@@ -41,7 +41,7 @@ cask 'bartender'
 cask 'cloudup'
 cask 'encryptme'
 cask 'github'
-cask 'local-by-flywheel'
+cask 'local'
 cask 'logitech-presentation'
 cask 'send-to-kindle'
 brew install wp-cli
