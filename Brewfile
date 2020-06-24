@@ -14,6 +14,7 @@ cask 'slack'
 cask 'wavebox'
 cask 'zoomus'
 cask 'signal'
+cask 'microsoft-teams'
 
 # Passwords
 cask 'keybase'
