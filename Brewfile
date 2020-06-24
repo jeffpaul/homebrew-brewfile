@@ -45,5 +45,6 @@ cask 'github'
 cask 'local'
 cask 'logitech-presentation'
 cask 'send-to-kindle'
+cask 'versions'
 brew install wp-cli
 brew install node
