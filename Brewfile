@@ -33,7 +33,7 @@ mas 'Pages', id: 409201541
 mas 'PDF Expert', id: 1055273043
 mas 'Pixelmator', id: 407963104
 mas 'TweetDeck by Twitter', id: 485812721
-mas 'Wunderlist', id: 410628904
+mas 'Microsoft To Do', id: 1274495053
 
 # Other
 cask 'amazon-music'
