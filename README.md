@@ -1,17 +1,17 @@
 # homebrew-brewfile
 My MacBook Brewfile
 
-1) Install [Homebrew](https://brew.sh/)
+1. Install [Homebrew](https://brew.sh/)
 - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-2) Sign into the Mac App store, so that `mas` app installs work via Homebrew.
+1. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
 
-3) Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/master/Brewfile) goodness
+1. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/master/Brewfile) goodness
 - brew install mas
 - touch Brewfile
 - brew bundle install
 
-4) macOS Preferences:
+1. macOS Preferences:
 - Bluetooth > Show Bluetooth in menu bar
 - Date & Time > Clock > Show date
 - Desktop > Use Stacks
@@ -29,7 +29,7 @@ My MacBook Brewfile
 - Software Update > Advanced > Install app updates from the App Store
 - Sound > Show volume in menu bar
 
-5) Terminal commands
+1. Terminal commands
 - Show Library folder: chflags nohidden ~/Library
 - Show hidden files: defaults write com.apple.finder AppleShowAllFiles YES
 - Keep Homebrew current:
@@ -38,7 +38,7 @@ My MacBook Brewfile
   - source ~/.bash_profile
   - DAILY CHECK: brewup
 
-6) Manually install:
+1. Manually install:
 - [Google Drive Filestream](https://www.google.com/drive/download/)
 - [HP Easy Start & HP Firmware Updater](https://support.hp.com/us-en/drivers/selfservice/closure/hp-officejet-pro-8720-all-in-one-printer-series/7902032/model/7902033?sku=M9L74A)
 - [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
@@ -50,12 +50,12 @@ My MacBook Brewfile
 - [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
 - [Sound Control](https://staticz.com/soundcontrol/)
 
-7) Dropbox sync only:
+1. Dropbox sync only:
 - Downloads
 - Music > iTunes > iTunes Media > Music
 - ZSUZSI
 
-8) Choosy prefs:
+1. Choosy prefs:
 - General > Enable Choosy for links
 - General > Start Choosy helper at login
 - General > (DISABLE) Display Choosy icon in the menu bar
@@ -68,7 +68,7 @@ My MacBook Brewfile
   - Always user this browser... Google Chrome
   - Enabled > OK
 
-9) Slack settings
+1. Slack settings
 - Workspaces:
   - 10up
   - wordpress
@@ -77,7 +77,7 @@ My MacBook Brewfile
   - thetodogroup
 - Advanced > Download Location: Dropbox/Downloads
 
-10) Remove from Dock:
+1. Remove from Dock:
 - Calendar
 - Contacts
 - Facetime
@@ -97,7 +97,7 @@ My MacBook Brewfile
 - System Preferences
 - Terminal
 
-11) Keep in Dock:
+1. Keep in Dock:
 - Finder
 - Wavebox
 - Slack
@@ -108,51 +108,46 @@ My MacBook Brewfile
 - Notes
 - zoom.us
 - Messages
-- Wunderlist
 
-12) Bartender preferences:
+1. Bartender preferences:
 - Menu Items > AirPort - Wi-Fi > Menu bar item should > Hide
 - Menu Items > Airplay Displays > Menu bar item should > Hide
 - Menu Items > Dropbox > Menu bar item should > Hide
 - Menu Items > Sophos Home > Menu bar item should > Hide
 - Menu Items > Siri > Menu bar item should > Hide
-- Menu Items > WunderlistHelper > Menu bar item should > Hide
 - General > Open Bartender at login
 
-13) Wunderlist preferences:
-- General > Open Wunderlist at startup
-
-14) Memory Clean 3 preferences:
+1. Memory Clean 3 preferences:
 - Dock Window
 - General > Hide window at startup
 - App Management > (DISABLE) Notify me when apps become inactive
 - Advanced > Threshold level: 2000 MB
 - Advanced > Auto clean
 
-15) iTunes preferences:
+1. iTunes preferences:
 - Advanced > iTunes Media folder location: /Users/jeffpaul/Dropbox/Music/iTunes/iTunes Media/Music
 
-16) Safari preferences:
+1. Safari preferences:
 - General > File download location: Dropbox/Downloads
 
-17 ) Firefox preferences:
+1. Firefox preferences:
 - General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
 - Search > Default Search Engine: DuckDuckGo
 - about:config > (ENABLE) dom.forms.selectSearch
 
-18 ) Chrome preferences:
+1. Chrome preferences:
 - Advanced > Downloads > Location: Dropbox/Downloads
 
-19) Mail preferences:
+1. Mail preferences:
 - General > Downloads folder: Dropbox/Downloads
 
-20) Keybase settings
+1. Keybase settings
 - Files > Enable Keybase in Finder
 
-21) Local settings
+1. Local settings
 - Local site path: Dropbox/Local Sites
 
-22) Finder sidebar
+1. Finder sidebar
 - (KEEP) AirDrop
 - (KEEP) Appications
 - Downloads > Remove from Sidebar
@@ -165,26 +160,26 @@ My MacBook Brewfile
 - Dropbox/Local Sites > Add to Sidebar
 - (KEEP) Recents
 
-23) Finder preferences
+1. Finder preferences
 - General > Show these items on the desktop: (DISABLE) External disks
 - General > Show these items on the desktop: (DISABLE) CDs, DVDs, and iPods
 - General > New Finder windows show: Dropbox/Downloads
 - Advanced > Show all filename extensions
 
-24) zoom.us preferences
+1. zoom.us preferences
 - General > (DISABLE) Prompt a confirmation before leaving a meeting
 - Video > My Video > Enable HD
 - Video > Meetings > Always display participant name on their videos
 
-25) Messages preferences
+1. Messages preferences
 - General > Save history when conversations are closed
 - Save received files to: Dropbox/Downloads
 
-26) Amazon Music preferences
+1. Amazon Music preferences
 - General > Download Location: /Users/jeffpaul/Dropbox/Amazon Music
 - (DISABLE) Advanced > Launch automatically on computer startup
 
-27) HP Easy Scan preferences
+1. HP Easy Scan preferences
 - Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
 - Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
 - Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
