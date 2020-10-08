@@ -15,6 +15,7 @@ cask 'wavebox'
 cask 'zoomus'
 cask 'signal'
 cask 'microsoft-teams'
+cask 'element'
 
 # Passwords
 cask 'keybase'
