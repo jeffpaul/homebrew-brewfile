@@ -49,3 +49,4 @@ cask 'send-to-kindle'
 cask 'versions'
 brew install wp-cli
 brew install node
+brew install composer
