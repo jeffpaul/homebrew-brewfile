@@ -35,6 +35,7 @@ mas 'PDF Expert', id: 1055273043
 mas 'Pixelmator', id: 407963104
 mas 'TweetDeck by Twitter', id: 485812721
 mas 'Microsoft To Do', id: 1274495053
+mas 'Xcode', id: 497799835
 
 # Other
 cask 'amazon-music'
