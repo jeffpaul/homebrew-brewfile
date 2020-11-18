@@ -39,7 +39,6 @@ mas 'Xcode', id: 497799835
 
 # Other
 cask 'amazon-music'
-cask 'atom'
 cask 'bartender'
 cask 'cloudup'
 cask 'encryptme'
@@ -52,3 +51,4 @@ brew install wp-cli
 brew install node
 brew install php
 brew install composer
+brew cask install visual-studio-code
