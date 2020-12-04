@@ -29,6 +29,7 @@ mas 'Brother iPrint&Scan', id: 1193539993
 mas 'HP Easy Scan', id: 967004861
 mas 'Keynote', id: 409183694
 mas 'Memory Clean 3', id: 1302310792
+mas 'Mic Drop.', id: 1489816366
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'PDF Expert', id: 1055273043
