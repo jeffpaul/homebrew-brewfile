@@ -33,7 +33,7 @@ mas 'Mic Drop.', id: 1489816366
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'PDF Expert', id: 1055273043
-mas 'Pixelmator', id: 407963104
+mas 'Pixelmator Pro', id: 1289583905
 mas 'TweetDeck by Twitter', id: 485812721
 mas 'Microsoft To Do', id: 1274495053
 mas 'Xcode', id: 497799835
