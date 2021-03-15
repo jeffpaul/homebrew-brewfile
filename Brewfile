@@ -52,4 +52,5 @@ brew install wp-cli
 brew install node
 brew install php
 brew install composer
+brew install firebase-cli
 brew cask install visual-studio-code
