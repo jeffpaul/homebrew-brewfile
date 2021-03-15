@@ -53,4 +53,5 @@ brew install node
 brew install php
 brew install composer
 brew install firebase-cli
+brew install --cask google-cloud-sdk
 brew cask install visual-studio-code
