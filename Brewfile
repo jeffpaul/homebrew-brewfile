@@ -40,7 +40,7 @@ mas 'Xcode', id: 497799835
 
 # Other
 brew install git
-cask install docker
+brew install --cask docker
 brew install node
 brew install php
 brew install composer
