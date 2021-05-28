@@ -39,6 +39,13 @@ mas 'Microsoft To Do', id: 1274495053
 mas 'Xcode', id: 497799835
 
 # Other
+brew install git
+brew install node
+brew install php
+brew install composer
+brew install wp-cli
+brew install firebase-cli
+brew cask install visual-studio-code
 cask 'amazon-music'
 cask 'bartender'
 cask 'cloudup'
@@ -48,9 +55,3 @@ cask 'local'
 cask 'logitech-presentation'
 cask 'send-to-kindle'
 cask 'versions'
-brew install wp-cli
-brew install node
-brew install php
-brew install composer
-brew install firebase-cli
-brew cask install visual-studio-code
