@@ -2,6 +2,7 @@
 tap 'caskroom/cask'
 brew 'cask'
 cask_args appdir: '/Applications'
+brew install --cask cakebrew
 
 # Web applications
 cask 'choosy'
