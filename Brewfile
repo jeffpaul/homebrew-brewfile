@@ -17,6 +17,7 @@ cask 'zoomus'
 cask 'signal'
 cask 'microsoft-teams'
 cask 'element'
+cask 'krisp'
 
 # Passwords
 cask 'keybase'
