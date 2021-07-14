@@ -15,7 +15,6 @@ cask 'slack'
 cask 'wavebox'
 cask 'zoomus'
 cask 'signal'
-cask 'microsoft-teams'
 cask 'element'
 cask 'krisp'
 
@@ -47,7 +46,6 @@ brew install node
 brew install php
 brew install composer
 brew install wp-cli
-brew install firebase-cli
 brew cask install visual-studio-code
 cask 'amazon-music'
 cask 'bartender'
