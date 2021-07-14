@@ -6,15 +6,14 @@ My MacBook Brewfile
 
 2. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
 
-3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/master/Brewfile) goodness
+3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) goodness
 - brew install mas
 - touch Brewfile
 - brew bundle install
 
 4. macOS Preferences:
 - Bluetooth > Show Bluetooth in menu bar
-- Date & Time > Clock > Show date
-- Desktop > Use Stacks
+- Dock & Menu Bar > Clock > Show date
 - Desktop & Screen Saver > Desktop > + > Dropbox > ZSUZSI
 - Dock > Minimize windows into application icon
 - Dock > Automatically hide and show the Dock
