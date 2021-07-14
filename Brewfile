@@ -1,8 +1,8 @@
 # Applications
-tap 'caskroom/cask'
+tap 'homebrew/cask'
 brew 'cask'
 cask_args appdir: '/Applications'
-brew install --cask cakebrew
+cask 'cakebrew'
 
 # Web applications
 cask 'choosy'
@@ -40,13 +40,13 @@ mas 'Microsoft To Do', id: 1274495053
 mas 'Xcode', id: 497799835
 
 # Other
-brew install git
-brew install --cask docker
-brew install node
-brew install php
-brew install composer
-brew install wp-cli
-brew cask install visual-studio-code
+brew 'git'
+cask 'docker'
+brew 'node'
+brew 'php'
+brew 'composer'
+brew 'wp-cli'
+cask 'visual-studio-code'
 cask 'amazon-music'
 cask 'bartender'
 cask 'cloudup'
