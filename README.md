@@ -40,26 +40,29 @@ My MacBook Brewfile
 
 6. Manually install:
 - [Google Drive Filestream](https://www.google.com/drive/download/)
-- [HP Easy Start & HP Firmware Updater](https://support.hp.com/us-en/drivers/selfservice/closure/hp-officejet-pro-8720-all-in-one-printer-series/7902032/model/7902033?sku=M9L74A)
-- [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
+**- [HP Easy Start & HP Firmware Updater](https://support.hp.com/us-en/drivers/selfservice/closure/hp-officejet-pro-8720-all-in-one-printer-series/7902032/model/7902033?sku=M9L74A)
+**- [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
 - [Sonos](https://www.sonos.com/en-us/support)
-- [Sophos](https://home.sophos.com/en-us.aspx)
+**- [Sophos](https://home.sophos.com/en-us.aspx)
 - [1.1.1.1 DNS](https://1.1.1.1/dns/)
 - [Logitech HD Pro Webcam C920](https://support.logitech.com/en_us/product/hd-pro-webcam-c920/downloads#)
 - [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/)
-- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
-- [Sound Control](https://staticz.com/soundcontrol/)
+**- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
+**- [Sound Control](https://staticz.com/soundcontrol/)
 
 7. Dropbox sync only:
 - Downloads
+- GitHub
+- GitLab
+**- Local Sites
+- Music > Amazon Music
 - Music > iTunes > iTunes Media > Music
-- ZSUZSI
+**- ZSUZSI
 
 8. Choosy prefs:
-- General > Enable Choosy for links
-- General > Start Choosy helper at login
-- General > (DISABLE) Display Choosy icon in the menu bar
 - Browsers > Firefox, Google Chrome, Safari
+- Advanced > Start Choosy at login
+- Advanced > (DISABLE) Display Choosy icon in the menu bar
 - Default: Firefox
 - Advanced > +
   - Title: Hangouts > Chrome
@@ -68,7 +71,7 @@ My MacBook Brewfile
   - Always user this browser... Google Chrome
   - Enabled > OK
 
-9. Slack settings
+**9. Slack settings
 - Workspaces:
   - 10up
   - wordpress
@@ -106,7 +109,7 @@ My MacBook Brewfile
 - Amazon Music
 - Sonos
 - Notes
-- zoom.us
+- Zoom
 - Messages
 
 12. Bartender preferences:
@@ -114,8 +117,7 @@ My MacBook Brewfile
 - Menu Items > Airplay Displays > Menu bar item should > Hide
 - Menu Items > Dropbox > Menu bar item should > Hide
 - Menu Items > Sophos Home > Menu bar item should > Hide
-- Menu Items > Siri > Menu bar item should > Hide
-- General > Open Bartender at login
+- General > Startup: Launch Bartender at login
 
 13. Memory Clean 3 preferences:
 - Dock Window
@@ -124,8 +126,8 @@ My MacBook Brewfile
 - Advanced > Threshold level: 2000 MB
 - Advanced > Auto clean
 
-14. iTunes preferences:
-- Advanced > iTunes Media folder location: /Users/jeffpaul/Dropbox/Music/iTunes/iTunes Media/Music
+14. Music preferences:
+**- Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music
 
 15. Safari preferences:
 - General > File download location: Dropbox/Downloads
@@ -137,27 +139,30 @@ My MacBook Brewfile
 
 17. Chrome preferences:
 - Advanced > Downloads > Location: Dropbox/Downloads
-
+- (DISABLE) Warn before quitting
+- 
 18. Mail preferences:
 - General > Downloads folder: Dropbox/Downloads
 
 19. Keybase settings
-- Files > Enable Keybase in Finder
+**- Files > Enable Finder Integration
 
 20. Local settings
-- Local site path: Dropbox/Local Sites
+**- Local site path: Dropbox/Local Sites
 
 21. Finder sidebar
 - (KEEP) AirDrop
 - (KEEP) Appications
-- Downloads > Remove from Sidebar
-- Dropbox/Downloads > Add to Sidebar
+- (KEEP) Desktop
+- (REMOVE) Documents
+- (REMOVE) Downloads
+- (ADD) Dropbox/Downloads
 - (KEEP) Dropbox
-- Dropbox/GitHub > Add to Sidebar
-- Google Drive > Add to Sidebar
-- jeffpaul > Add to Sidebar
+- (ADD) Dropbox/GitHub
+- (ADD) Google Drive
+- (ADD) jeffpaul
 - (KEEP) Keybase
-- Dropbox/Local Sites > Add to Sidebar
+- (ADD) Dropbox/Local Sites
 - (KEEP) Recents
 
 22. Finder preferences
@@ -166,20 +171,23 @@ My MacBook Brewfile
 - General > New Finder windows show: Dropbox/Downloads
 - Advanced > Show all filename extensions
 
-23. zoom.us preferences
-- General > (DISABLE) Prompt a confirmation before leaving a meeting
-- Video > My Video > Enable HD
+23. Zoom preferences
+- General > (DISABLE) Ask me to confirm when I leave a meeting
+- Video > Camera > HD
 - Video > Meetings > Always display participant name on their videos
 
-24. Messages preferences
-- General > Save history when conversations are closed
-- Save received files to: Dropbox/Downloads
-
-25. Amazon Music preferences
-- General > Download Location: /Users/jeffpaul/Dropbox/Amazon Music
+24. Amazon Music preferences
+**- Music Management > Offline Download Location: /Users/jeffpaul/Dropbox/Amazon Music
 - (DISABLE) Advanced > Launch automatically on computer startup
 
-26. HP Easy Scan preferences
+25. HP Easy Scan preferences
 - Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
 - Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
 - Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
+
+26. Wavebox
+- (DISABLE) Warn Before Quitting
+
+**27. GPG Keychain
+- Import
+
