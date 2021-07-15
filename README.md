@@ -41,23 +41,27 @@ My MacBook Brewfile
 6. Manually install:
 - [Google Drive Filestream](https://www.google.com/drive/download/)
 **- [HP Easy Start & HP Firmware Updater](https://support.hp.com/us-en/drivers/selfservice/closure/hp-officejet-pro-8720-all-in-one-printer-series/7902032/model/7902033?sku=M9L74A)
-**- [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
+- [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
 - [Sonos](https://www.sonos.com/en-us/support)
-**- [Sophos](https://home.sophos.com/en-us.aspx)
+- [Sophos](https://home.sophos.com/en-us.aspx)
 - [1.1.1.1 DNS](https://1.1.1.1/dns/)
 - [Logitech HD Pro Webcam C920](https://support.logitech.com/en_us/product/hd-pro-webcam-c920/downloads#)
 - [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/)
-**- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
-**- [Sound Control](https://staticz.com/soundcontrol/)
+- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
+- [Sound Control](https://staticz.com/soundcontrol/)
 
-7. Dropbox sync only:
-- Downloads
-- GitHub
-- GitLab
-**- Local Sites
-- Music > Amazon Music
-- Music > iTunes > iTunes Media > Music
-**- ZSUZSI
+7. Dropbox
+- General > Dropbox badge > Never show
+- Sync > Save hard drive space automatically > On
+- Selective Sync > Choose folders:
+  - Downloads
+  - Family Pictures - 2015
+  - Family Pictures - 2019
+  - GitHub
+  - GitLab
+  **- Local Sites
+  - Music > Amazon Music
+  - Music > iTunes > iTunes Media > Music
 
 8. Choosy prefs:
 - Browsers > Firefox, Google Chrome, Safari
@@ -71,13 +75,16 @@ My MacBook Brewfile
   - Always user this browser... Google Chrome
   - Enabled > OK
 
-**9. Slack settings
+9. Slack settings
 - Workspaces:
   - 10up
   - wordpress
-  - cmssecuritysummit
+  - woocommerce
+  - newspack
   - poststatus
+  - cmssecuritysummit
   - thetodogroup
+  - indieweb
 - Advanced > Download Location: Dropbox/Downloads
 
 10. Remove from Dock:
@@ -127,7 +134,7 @@ My MacBook Brewfile
 - Advanced > Auto clean
 
 14. Music preferences:
-**- Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music
+- Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music
 
 15. Safari preferences:
 - General > File download location: Dropbox/Downloads
@@ -140,12 +147,12 @@ My MacBook Brewfile
 17. Chrome preferences:
 - Advanced > Downloads > Location: Dropbox/Downloads
 - (DISABLE) Warn before quitting
-- 
+
 18. Mail preferences:
 - General > Downloads folder: Dropbox/Downloads
 
 19. Keybase settings
-**- Files > Enable Finder Integration
+- Files > Enable Finder Integration
 
 20. Local settings
 **- Local site path: Dropbox/Local Sites
@@ -177,8 +184,9 @@ My MacBook Brewfile
 - Video > Meetings > Always display participant name on their videos
 
 24. Amazon Music preferences
-**- Music Management > Offline Download Location: /Users/jeffpaul/Dropbox/Amazon Music
+- Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
 - (DISABLE) Advanced > Launch automatically on computer startup
+- System Preferences > (DISABLE) Show notifications for track playing
 
 25. HP Easy Scan preferences
 - Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
@@ -191,3 +199,6 @@ My MacBook Brewfile
 **27. GPG Keychain
 - Import
 
+28. Sound Control
+- Check for updates automatically
+- General > Menu Bar Icon > [speaker]
