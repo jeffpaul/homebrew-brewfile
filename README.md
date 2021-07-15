@@ -31,6 +31,7 @@ My MacBook Brewfile
 5. Terminal commands
 - Show Library folder: chflags nohidden ~/Library
 - Show hidden files: defaults write com.apple.finder AppleShowAllFiles YES
+- echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 - Keep Homebrew current:
   - touch .bash_profile
   - alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
