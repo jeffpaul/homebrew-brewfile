@@ -202,3 +202,6 @@ My MacBook Brewfile
 28. Sound Control
 - Check for updates automatically
 - General > Menu Bar Icon > [speaker]
+
+29. GitHub Desktop
+- Advanced > (DISABLE) Help GitHub Desktop improve by submitting usage stats
