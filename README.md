@@ -76,6 +76,7 @@ My MacBook Brewfile
 - Rules > (EDIT) Default behavior
   - Always user this browser... Firefox
   - Enabled > OK
+- About > Register
 
 9. Slack settings
 - Workspaces:
