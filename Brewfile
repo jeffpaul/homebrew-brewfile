@@ -5,6 +5,7 @@ cask_args appdir: '/Applications'
 cask 'cakebrew'
 
 # Web applications
+sudo softwareupdate --install-rosetta
 cask 'choosy'
 cask 'firefox'
 cask 'google-chrome'
