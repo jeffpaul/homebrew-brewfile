@@ -67,12 +67,14 @@ My MacBook Brewfile
 - Browsers > Firefox, Google Chrome, Safari
 - Advanced > Start Choosy at login
 - Advanced > (DISABLE) Display Choosy icon in the menu bar
-- Default: Firefox
-- Advanced > +
+- Rules > +
   - Title: Hangouts > Chrome
   - Rule: Web address contains: meet.google.com
   - Rule: Web address contains: google.com/hangouts
   - Always user this browser... Google Chrome
+  - Enabled > OK
+- Rules > (EDIT) Default behavior
+  - Always user this browser... Firefox
   - Enabled > OK
 
 9. Slack settings
