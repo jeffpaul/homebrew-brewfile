@@ -20,7 +20,6 @@ My MacBook Brewfile
 - Dock > (DISABLE) Show recent applications in Dock
 - Mouse > Point & Click > Secondary click > Click on right side
 - Security and Privacy > General > App Store and identified developers
-- Security and Privacy > General > Allow your Apple Watch to unlock your Mac
 - Security and Privacy > FileVault > On (makes sure SSD is securely encrypted)
 - Security and Privacy > Firewall > On
 - Software Update > Automatically keep my Mac up to date
