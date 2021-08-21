@@ -33,7 +33,7 @@ My MacBook Brewfile
 - echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 - Keep Homebrew current:
   - touch .bash_profile
-  - alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+  - alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
   - source ~/.bash_profile
   - DAILY CHECK: brewup
 
