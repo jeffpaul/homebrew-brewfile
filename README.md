@@ -55,8 +55,8 @@ My MacBook Brewfile
 - Sync > Save hard drive space automatically > On
 - Selective Sync > Choose folders:
   - Downloads
-  - Family Pictures - 2015
-  - Family Pictures - 2019
+  - Family photos - 2015
+  - Family photos - 2019
   - GitHub
   - GitLab
   **- Local Sites
