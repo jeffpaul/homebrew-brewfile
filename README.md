@@ -157,7 +157,7 @@ My MacBook Brewfile
 - Files > Enable Finder Integration
 
 20. Local settings
-**- Local site path: Dropbox/Local Sites
+- Local site path: Dropbox/Local Sites
 
 21. Finder sidebar
 - (KEEP) AirDrop
