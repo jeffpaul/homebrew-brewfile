@@ -42,7 +42,7 @@ My MacBook Brewfile
 - [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
 - [Sonos](https://www.sonos.com/en-us/support)
 - [Sophos](https://home.sophos.com/en-us.aspx)
-- [1.1.1.1 DNS](https://1.1.1.1/dns/)
+- 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/)
 - [Logitech HD Pro Webcam C920](https://support.logitech.com/en_us/product/hd-pro-webcam-c920/downloads#)
 - [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/)
 - [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
