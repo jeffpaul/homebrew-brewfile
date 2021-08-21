@@ -167,8 +167,6 @@ My MacBook Brewfile
 - (REMOVE) Downloads
 - (ADD) Dropbox/Downloads
 - (KEEP) Dropbox
-- (ADD) Dropbox/GitHub
-- (ADD) Google Drive
 - (ADD) jeffpaul
 - (KEEP) Keybase
 - (ADD) Dropbox/Local Sites
