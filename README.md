@@ -198,7 +198,7 @@ My MacBook Brewfile
 26. Wavebox
 - (DISABLE) Warn Before Quitting
 
-**27. GPG Keychain
+27. GPG Keychain
 - Import
 
 28. Sound Control
@@ -207,6 +207,7 @@ My MacBook Brewfile
 
 29. GitHub Desktop
 - Advanced > (DISABLE) Help GitHub Desktop improve by submitting usage stats
+- Migrate .gitconfig from backup
 
 30. VS Code
 - Telemetry: (DISABLE) Enable Telemetry
