@@ -207,3 +207,7 @@ My MacBook Brewfile
 
 29. GitHub Desktop
 - Advanced > (DISABLE) Help GitHub Desktop improve by submitting usage stats
+
+30. VS Code
+- Telemetry: (DISABLE) Enable Telemetry
+
