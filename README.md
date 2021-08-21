@@ -176,7 +176,9 @@ My MacBook Brewfile
 - General > Show these items on the desktop: (DISABLE) External disks
 - General > Show these items on the desktop: (DISABLE) CDs, DVDs, and iPods
 - General > New Finder windows show: Dropbox/Downloads
-- Advanced > Show all filename extensions
+- Advanced > (ENABLE) Show all filename extensions
+- Advanced > (DISALBE) Show warning before removing from iCloud Drive
+- Advanced > When performaing a search > Seath the Current Folder
 
 23. Zoom preferences
 - General > (DISABLE) Ask me to confirm when I leave a meeting
