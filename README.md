@@ -115,6 +115,7 @@ My MacBook Brewfile
 - Local
 - Amazon Music
 - Sonos
+- Pocket Casts
 - Notes
 - Zoom
 - Messages
