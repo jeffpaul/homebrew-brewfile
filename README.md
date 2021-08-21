@@ -146,6 +146,7 @@ My MacBook Brewfile
 - General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
 - Search > Default Search Engine: DuckDuckGo
 - about:config > (ENABLE) dom.forms.selectSearch
+- Privacy & Security > Use custom settings for history > (DISABLE) Remember search and form history
 
 17. Chrome preferences:
 - Advanced > Downloads > Location: Dropbox/Downloads
