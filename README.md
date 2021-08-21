@@ -58,7 +58,6 @@ My MacBook Brewfile
   - Family photos - 2019
   - GitHub
   - GitLab
-  **- Local Sites
   - Music > Amazon Music
   - Music > iTunes > iTunes Media > Music
 
