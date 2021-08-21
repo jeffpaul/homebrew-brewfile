@@ -212,3 +212,6 @@ My MacBook Brewfile
 30. VS Code
 - Telemetry: (DISABLE) Enable Telemetry
 
+31. Messages
+- iMessage > (ENABLE) Enable Messages in iCloud
+
