@@ -26,6 +26,7 @@ My MacBook Brewfile
 - Software Update > Advanced > Install macOS updates
 - Software Update > Advanced > Install app updates from the App Store
 - Sound > Show volume in menu bar
+- Displays > Night Shift > Schedule: Sunset to Sunrise
 
 5. Terminal commands
 - Show Library folder: chflags nohidden ~/Library
