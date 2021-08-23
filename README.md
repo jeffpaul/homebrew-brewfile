@@ -185,6 +185,7 @@ My MacBook Brewfile
 - General > (DISABLE) Ask me to confirm when I leave a meeting
 - Video > Camera > HD
 - Video > Meetings > Always display participant name on their videos
+- Recording > Local Recording > Store my recordings at: Dropbox/Downloads
 
 24. Amazon Music preferences
 - Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
