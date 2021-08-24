@@ -202,6 +202,7 @@ My MacBook Brewfile
 
 27. GPG Keychain
 - Import
+- [Verify git commits](https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da)
 
 28. Sound Control
 - Check for updates automatically
