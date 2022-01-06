@@ -39,14 +39,15 @@ My MacBook Brewfile
   - DAILY CHECK: brewup
 
 6. Manually install:
+- 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/)
+- [Beardie](https://github.com/Stillness-2/beardie)
+- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/)
+- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
 - [Google Drive Filestream](https://www.google.com/drive/download/)
+- [Logitech HD Pro Webcam C920](https://support.logitech.com/en_us/product/hd-pro-webcam-c920/downloads#)
 - [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
 - [Sonos](https://www.sonos.com/en-us/support)
 - [Sophos](https://home.sophos.com/en-us.aspx)
-- 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/)
-- [Logitech HD Pro Webcam C920](https://support.logitech.com/en_us/product/hd-pro-webcam-c920/downloads#)
-- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/)
-- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
 - [Sound Control](https://staticz.com/soundcontrol/)
 
 7. Dropbox
