@@ -17,7 +17,6 @@ cask 'wavebox'
 cask 'zoom'
 cask 'signal'
 cask 'element'
-cask 'krisp'
 
 # Passwords
 cask 'keybase'
