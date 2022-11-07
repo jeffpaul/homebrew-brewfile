@@ -46,7 +46,7 @@ My MacBook Brewfile
 - [Google Drive Filestream](https://www.google.com/drive/download/)
 - [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam)
 - [Pokemon TGC](https://www.pokemon.com/us/pokemon-tcg/play-online/download/)
-- [Sonos](https://www.sonos.com/en-us/support)
+- [Sonos](https://support.sonos.com/s/downloads?language=en_US)
 - [Sophos](https://home.sophos.com/en-us.aspx)
 - [Sound Control](https://staticz.com/soundcontrol/)
 
