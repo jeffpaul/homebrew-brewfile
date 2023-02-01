@@ -66,11 +66,20 @@ My MacBook Brewfile
 - Advanced > Start Choosy at login
 - Advanced > (DISABLE) Display Choosy icon in the menu bar
 - Rules > +
-  - Title: Hangouts > Chrome
+  - Title: Google Video > Chrome
+  - Any of the following are true
+  - Rule: Web address contains: hangouts.google.com
   - Rule: Web address contains: meet.google.com
   - Rule: Web address contains: google.com/hangouts
-  - Always user this browser... Google Chrome
+  - Always use this browser... Google Chrome
   - Enabled > OK
+- Rules > +
+  - Title: Yomechas
+  - Any of the following are true
+  - Rule: Web address contains: regsysinc.com
+  - Rule: Web address contains: yomechas.org
+  - Always use this browser... Safari
+  - Enabled > OK  
 - Rules > (EDIT) Default behavior
   - Always user this browser... Firefox
   - Enabled > OK
