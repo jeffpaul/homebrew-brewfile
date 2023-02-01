@@ -18,6 +18,7 @@ cask 'zoom'
 cask 'signal'
 
 # Passwords
+cask 'bitwarden'
 cask 'keybase'
 cask 'gpg-suite'
 
