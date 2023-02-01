@@ -121,14 +121,16 @@ My MacBook Brewfile
 - Finder
 - Wavebox
 - Slack
+- Messages
+- Zoom
 - Firefox
+- Microsoft To Do
 - Local
+- GitHub Desktop
 - Amazon Music
 - Sonos
 - Pocket Casts
 - Notes
-- Zoom
-- Messages
 
 12. Bartender preferences:
 - Menu Items > AirPort - Wi-Fi > Menu bar item should > Hide
@@ -223,6 +225,7 @@ My MacBook Brewfile
 
 30. VS Code
 - Telemetry: (DISABLE) Enable Telemetry
+- Sync settings from GitHub account
 
 31. Messages
 - iMessage > (ENABLE) Enable Messages in iCloud
