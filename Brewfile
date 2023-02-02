@@ -11,7 +11,7 @@ cask 'firefox'
 cask 'google-chrome'
 
 # Communication apps
-cask 'skype'
+# cask 'skype'
 cask 'slack'
 cask 'wavebox'
 cask 'zoom'
@@ -26,7 +26,7 @@ cask 'gpg-suite'
 cask 'dropbox'
 
 ## App Store
-mas 'Bitwarden', id: 1352778147
+# mas 'Bitwarden', id: 1352778147 <-- duplicate of the brew cask above
 mas 'Brother iPrint&Scan', id: 1193539993
 mas 'Divvy', id: 413857545
 mas 'HP Easy Scan', id: 967004861
@@ -38,11 +38,11 @@ mas 'Pages', id: 409201541
 mas 'PDF Expert', id: 1055273043
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Microsoft To Do', id: 1274495053
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835
 
 # Other
 brew 'git'
-cask 'docker'
+# cask 'docker'
 brew 'node'
 brew 'php'
 brew 'composer'
@@ -51,10 +51,11 @@ cask 'visual-studio-code'
 cask 'amazon-music'
 cask 'bartender'
 cask 'cloudup'
-cask 'encryptme'
+# cask 'encryptme'
 cask 'github'
 cask 'local'
-cask 'logitech-presentation'
+# cask 'logitech-presentation'
 cask 'openvpn-connect'
-cask 'send-to-kindle'
-cask 'versions'
+# cask 'send-to-kindle'
+# cask 'versions'
+cask 'avast-security'
