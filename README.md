@@ -1,15 +1,22 @@
 # homebrew-brewfile
-My MacBook Brewfile
+
+> My macOS Brewfile
 
 1. Install [Homebrew](https://brew.sh/)
-- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 2. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
 
 3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) goodness
-- brew install mas
-- touch Brewfile
-- brew bundle install
+
+~- brew install mas~
+~- touch Brewfile~
+~- brew bundle install~
+
+- Download [brewfile.sh](https://github.com/jeffpaul/homebrew-brewfile/blob/main/brewfile.sh) to the local user directory
+- Run `$ brew bundle` in your terminal and watch the magic happen.
 
 4. macOS Preferences:
 - Bluetooth > Show Bluetooth in menu bar
