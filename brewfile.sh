@@ -1,61 +1,65 @@
-# Applications
-tap 'homebrew/cask'
-brew 'cask'
-cask_args appdir: '/Applications'
-cask 'cakebrew'
+# Specify directory where to install Homebrew apps
+cask_args appdir: "/Applications"
+
+# Homebrew basics
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "cask"
+cask "cakebrew"
+
+# Base utilities
+brew "composer"
+brew "git"
+brew "mas"
+brew "node"
+brew "php"
+brew "wp-cli"
 
 # Web applications
 sudo softwareupdate --install-rosetta
-cask 'choosy'
-cask 'firefox'
-cask 'google-chrome'
+cask "choosy"
+cask "firefox"
+cask "google-chrome"
 
 # Communication apps
-# cask 'skype'
-cask 'slack'
-cask 'wavebox'
-cask 'zoom'
-cask 'signal'
+cask "slack"
+cask "wavebox"
+cask "zoom"
+cask "signal"
 
-# Passwords
-cask 'bitwarden'
-cask 'keybase'
-cask 'gpg-suite'
+# Security and Password apps
+cask "avast-security"
+cask "bitwarden"
+cask "keybase"
+cask 'openvpn-connect'
+cask "gpg-suite"
+
+# Development apps
+cask "github"
+cask "local"
+cask "visual-studio-code"
 
 # File sharing apps
-cask 'dropbox'
+cask "dropbox"
 
 ## App Store
-# mas 'Bitwarden', id: 1352778147 <-- duplicate of the brew cask above
 mas 'Brother iPrint&Scan', id: 1193539993
-mas 'Divvy', id: 413857545
+# mas 'Divvy', id: 413857545
 mas 'HP Easy Scan', id: 967004861
 mas 'HP Smart for Desktop', id: 1474276998
 mas 'Keynote', id: 409183694
-mas 'Memory Clean 3', id: 1302310792
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
-mas 'PDF Expert', id: 1055273043
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Microsoft To Do', id: 1274495053
-# mas 'Xcode', id: 497799835
 
-# Other
-brew 'git'
-# cask 'docker'
-brew 'node'
-brew 'php'
-brew 'composer'
-brew 'wp-cli'
-cask 'visual-studio-code'
-cask 'amazon-music'
-cask 'bartender'
-cask 'cloudup'
-# cask 'encryptme'
-cask 'github'
-cask 'local'
-# cask 'logitech-presentation'
-cask 'openvpn-connect'
-# cask 'send-to-kindle'
-# cask 'versions'
-cask 'avast-security'
+# Other apps
+cask "amazon-music"
+cask "appcleaner"
+cask "bartender"
+cask "beardedspice"
+cask "cloudup"
+cask "memory-clean-3"
+cask "pdf-expert"
+cask "rectangle"
