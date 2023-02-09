@@ -13,7 +13,7 @@ Alternative to running Strap locally: Open https://strap.mikemcquaid.com/ in you
 
 1. Install [Homebrew](https://brew.sh/)
 ```
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 If forced to download Xcode command tools, let's not download ALL of Xcode but the bits we need:
