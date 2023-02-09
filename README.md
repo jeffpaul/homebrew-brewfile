@@ -35,21 +35,28 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - Run `$ brew bundle` in your terminal and watch the magic happen.
 
 4. macOS Preferences:
-- Bluetooth > Show Bluetooth in menu bar
-- Dock & Menu Bar > Clock > Show date
+- Control Center > Bluetooth > Show in Menu Bar
+- Control Center > Menu Bar Only > Clock > Clock Options > Show date: Always
+- General > Storage > Empty Trash automatically
+- Desktop & Dock > Minimize windows using: Genie Effect
+- Desktop & Dock > Minimize windows into application icon
+- Desktop & Dock > Automatically hide and show the Dock
+- Desktop & Dock > Show recent applications in Dock (DISABLE)
+- Displays > Night Shift > Schedule: Sunset to Sunrise
+- Network > Firewall > On
+- Privacy & Security > Security > Allow applications downloaded from: App Store and identified developers
+- Privacy & Security > FileVault > On (makes sure SSD is securely encrypted)
+- Trackpad > Point & Click > Secondary click > Click with Two Fingers
+
+
+- Dropbox files available offline
 - Desktop & Screen Saver > Desktop > + > Dropbox > ZSUZSI
-- Dock > Minimize windows into application icon
-- Dock > Automatically hide and show the Dock
-- Dock > (DISABLE) Show recent applications in Dock
-- Mouse > Point & Click > Secondary click > Click on right side
-- Security and Privacy > General > App Store and identified developers
-- Security and Privacy > FileVault > On (makes sure SSD is securely encrypted)
-- Security and Privacy > Firewall > On
+
+
 - Software Update > Automatically keep my Mac up to date
 - Software Update > Advanced > Install macOS updates
 - Software Update > Advanced > Install app updates from the App Store
 - Sound > Show volume in menu bar
-- Displays > Night Shift > Schedule: Sunset to Sunrise
 
 5. Terminal commands
 - Show Library folder: chflags nohidden ~/Library
@@ -85,9 +92,10 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
   - Music > iTunes > iTunes Media > Music
 
 8. Choosy prefs:
+- Make default browser
 - Browsers > Firefox, Google Chrome, Safari
 - Advanced > Start Choosy at login
-- Advanced > (DISABLE) Display Choosy icon in the menu bar
+- Advanced > Display Choosy icon in the menu bar (DISABLE)
 - Rules > +
   - Title: Google Video > Chrome
   - Any of the following are true
