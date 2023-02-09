@@ -2,9 +2,25 @@
 
 > My macOS Brewfile
 
+0. Try Mike McQuaid's Strap tool (and assuming that goes smoothly then skip the next Step 1)
+```
+git clone https://github.com/MikeMcQuaid/strap
+cd strap
+bash bin/strap.sh # or bash bin/strap.sh --debug for more debugging output
+```
+
+Alternative to running Strap locally: Open https://strap.mikemcquaid.com/ in your web browser.
+
 1. Install [Homebrew](https://brew.sh/)
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+If forced to download Xcode command tools, let's not download ALL of Xcode but the bits we need:
+```
+touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
+softwareupdate -i -a
+rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 ```
 
 2. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
