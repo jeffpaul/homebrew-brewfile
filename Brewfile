@@ -20,7 +20,7 @@ brew "php"
 brew "wp-cli"
 
 # Web applications
-sudo softwareupdate --install-rosetta
+# sudo softwareupdate --install-rosetta
 cask "choosy"
 cask "firefox"
 cask "google-chrome"
