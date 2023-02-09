@@ -2,16 +2,18 @@
 cask_args appdir: "/Applications"
 
 # Homebrew basics
+tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/core"
+tap "buo/cask-upgrade"
+tap "homebrew/cask-fonts"
+brew "mas"
 brew "cask"
-cask "cakebrew"
+# cask "cakebrew"
 
 # Base utilities
 brew "composer"
 brew "git"
-brew "mas"
 brew "node"
 brew "php"
 brew "wp-cli"
