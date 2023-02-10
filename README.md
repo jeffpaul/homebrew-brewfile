@@ -61,28 +61,24 @@ brew install mas
   - source ~/.bash_profile
   - DAILY CHECK: brewup
 
-6. Manually install:
-- 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/)
-- [Beardie](https://github.com/Stillness-2/beardie)
-- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/) & [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
-- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10072)
-- [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam)
-- [Pokemon TCG Live](https://tcg.pokemon.com/en-us/tcgl/)
-- [Sonos](https://support.sonos.com/s/downloads?language=en_US)
+6. Chrome settings:
+- Appearance > Show warning before quitting with commandQ (DISABLE)
+- Downloads: Dropbox/Downloads
 
-7. Dropbox settings:
-- General > Dropbox badge > Never show
-- Sync > Storage of new files: Online-only
-- Select folders to sync to this Mac > Select folders:
-  - Downloads
-  - Family photos - 2015
-  - Family photos - 2019
-  - Family photos - 2021
-  - Music > Amazon Music
-  - Music > iTunes > iTunes Media > Music
-- macOS Settings > Screen Saver > Vintage Prints > Options > Choose folder: Dropbox > Family photos - 2021
+7. Firefox settings:
+- SIGN IN
+- General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
+- Search > Default Search Engine: DuckDuckGo
+- Privacy & Security > Logins and Passwords > DISABLE ALL
+- Privacy & Security > Firefox Data Collection and Use > DISABLE ALL
+- Privacy & Security > Forms and Autofill > DISABLE ALL
+- Privacy & Security > History > Firefox will: Use custom settings for history > (DISABLE) Remember search and form history
+- about:config > (ENABLE) dom.forms.selectSearch
 
-8. Choosy prefs:
+8. Safari settings:
+- General > File download location: Dropbox/Downloads
+
+9. Choosy prefs:
 - Make default browser
 - Browsers > Firefox, Google Chrome, Safari
 - Advanced > Start Choosy at login
@@ -107,7 +103,67 @@ brew install mas
   - Enabled > OK
 - About > Register
 
-9. Slack settings
+10. Manually install:
+- 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/)
+- [Beardie](https://github.com/Stillness-2/beardie)
+- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/) & [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
+- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10072)
+- [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam)
+- [Pokemon TCG Live](https://tcg.pokemon.com/en-us/tcgl/)
+- [Sonos](https://support.sonos.com/s/downloads?language=en_US)
+
+11. Amazon Music preferences:
+- Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
+- System Preferences > Show notifications for track playing (DISABLE)
+
+12. Bartender preferences:
+- General > Startup: Launch Bartender at login
+
+13. Beardie settings:
+- Launch at login
+- Enable Browser Extensions
+
+14. Dropbox settings:
+- General > Dropbox badge > Never show
+- Sync > Storage of new files: Online-only
+- Select folders to sync to this Mac > Select folders:
+  - Downloads
+  - Family photos - 2015
+  - Family photos - 2019
+  - Family photos - 2021
+  - Music > Amazon Music
+  - Music > iTunes > iTunes Media > Music
+- macOS Settings > Screen Saver > Vintage Prints > Options > Choose folder: Dropbox > Family photos - 2021
+
+```
+15. HP Easy Scan preferences
+- Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
+- Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
+- Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
+```
+
+16. Local preferences:
+- LOG IN
+
+17. Mail preferences:
+- General > Downloads folder: Dropbox/Downloads
+
+18. Memory Clean 3 preferences:
+- Dock Window
+- General > Hide window at startup
+- App Management > Notify me when apps become inactive (DISABLE)
+- Advanced > Threshold level: 2000 MB
+- Advanced > Auto clean
+
+19. Messages settings:
+- iMessage > Enable Messages in iCloud
+- iMessage > Sync Now
+- Launch Contacts app > Settings > Accounts (+) > Google > <Gmail account> > Select Contacts only
+
+20. Music settings:
+- Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music/iTunes/iTunes Media/Music
+
+21. Slack settings
 - Workspaces:
   - 10up
   - wordpress
@@ -120,54 +176,18 @@ brew install mas
   - indieweb
 - Settings > Advanced > Download Location: Dropbox/Downloads
 
-10. Bartender preferences:
-- General > Startup: Launch Bartender at login
+22. Sound Control preferences:
+- Check for updates automatically
+- General > Menu Bar Icon: <speaker>
+- Priority Devices > Input > Yeti then C922
 
-13. Memory Clean 3 preferences:
-- Dock Window
-- General > Hide window at startup
-- App Management > Notify me when apps become inactive (DISABLE)
-- Advanced > Threshold level: 2000 MB
-- Advanced > Auto clean
+23. VS Code
+- Sync to and from other devices > Enable Settings Sync > Sign in with GitHub
 
-14. Music settings:
-- Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music/iTunes/iTunes Media/Music
+24. Wavebox settings:
+- Show warning before quitting with commandQ (DISABLE)
 
-15. Safari settings:
-- General > File download location: Dropbox/Downloads
-
-16. Firefox settings:
-- SIGN IN
-- General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
-- Search > Default Search Engine: DuckDuckGo
-- Privacy & Security > Logins and Passwords > DISABLE ALL
-- Privacy & Security > Firefox Data Collection and Use > DISABLE ALL
-- Privacy & Security > Forms and Autofill > DISABLE ALL
-- Privacy & Security > History > Firefox will: Use custom settings for history > (DISABLE) Remember search and form history
-- about:config > (ENABLE) dom.forms.selectSearch
-
-17. Chrome settings:
-- Appearance > Show warning before quitting with commandQ (DISABLE)
-- Downloads: Dropbox/Downloads
-
-18. Mail preferences:
-- General > Downloads folder: Dropbox/Downloads
-
-19. Keybase settings:
-- Files > Enable Finder Integration
-
-20. Local preferences:
-- LOG IN
-
-22. Finder settings:
-- General > Show these items on the desktop: External disks (DISABLE)
-- General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
-- General > New Finder windows show: Dropbox/Downloads
-- Advanced > Show all filename extensions
-- Advanced > Show warning before removing from iCloud Drive (DISABLE)
-- Advanced > When performaing a search > Search the Current Folder
-
-23. Zoom preferences:
+25. Zoom preferences:
 - SIGN IN
 - General > Ask me to confirm when I leave a meeting (DISABLE)
 - General > Add Zoom to macOS menu bar (DISABLE
@@ -178,39 +198,21 @@ brew install mas
 - Audio > Automatically join computer audio when joining a meeting
 - Recording > Local Recording > Store my recordings at: Dropbox/Downloads
 
-24. Amazon Music preferences:
-- Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
-- System Preferences > Show notifications for track playing (DISABLE)
+26. Keybase settings:
+- Files > Enable Finder Integration
 
-```
-25. HP Easy Scan preferences
-- Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
-- Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
-- Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
-```
+27. GPG Keychain
+- Import
+- [Verify git commits](https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da)
 
-26. Wavebox settings:
-- Show warning before quitting with commandQ (DISABLE)
+28. GitHub Desktop settings:
+- SIGN IN
+- Git > Email: <personal email>
+- Git > Default branch name for new repositories > Other: trunk
+- Advanced > Usage > Help GitHub Desktop improve by submitting usage stats (DISABLE)
+- Migrate .gitconfig from backup
 
-28. Bearded Spice preferences:
-- General > Check for Compatibility Updates at Launch
-
-30. VS Code
-- Sync to and from other devices > Enable Settings Sync > Sign in with GitHub
-
-31. Beardie settings:
-- Launch at login
-- Enable Browser Extensions
-
-31. Messages settings:
-- iMessage > Enable Messages in iCloud
-
-32. Sound Control preferences:
-- Check for updates automatically
-- General > Menu Bar Icon: <speaker>
-- Priority Devices > Input > Yeti then C922
-
-10. Remove from Dock:
+29. Remove from Dock:
 - App Store
 - Calendar
 - Contacts
@@ -226,7 +228,7 @@ brew install mas
 - Terminal
 - TV
 
-11. Keep in Dock:
+30. Keep in Dock:
 - Finder
 - Wavebox
 - Slack
@@ -241,7 +243,15 @@ brew install mas
 - Pocket Casts
 - Notes
 
-21. Finder sidebar
+31. Finder settings:
+- General > Show these items on the desktop: External disks (DISABLE)
+- General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
+- General > New Finder windows show: Dropbox/Downloads
+- Advanced > Show all filename extensions
+- Advanced > Show warning before removing from iCloud Drive (DISABLE)
+- Advanced > When performaing a search > Search the Current Folder
+
+32. Finder sidebar
 - (KEEP) AirDrop
 - (KEEP) Appications
 - (KEEP) Desktop
@@ -254,18 +264,9 @@ brew install mas
 - (ADD) Dropbox/Local Sites
 - (KEEP) Recents
 
-27. GPG Keychain
-- Import
-- [Verify git commits](https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da)
-
-29. GitHub Desktop settings:
-- SIGN IN
-- Git > Email: <personal email>
-- Git > Default branch name for new repositories > Other: trunk
-- Advanced > Usage > Help GitHub Desktop improve by submitting usage stats (DISABLE)
-- Migrate .gitconfig from backup
-
-
-
-
-
+33. Rectangle Pro settings:
+- Restart on wake
+- Check for updates automatically
+- Sync configuration over iCloud
+- Keyboard Shortcuts > Sixths > control+option+Q/W/E/Z/X/C
+- App Layouts > + Layout > Current Layout > Record Shortcut: control+option+S
