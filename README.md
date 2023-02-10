@@ -27,7 +27,7 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 
 3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) goodness
 
-~- brew install mas~
+brew install mas
 ~- touch Brewfile~
 ~- brew bundle install~
 
@@ -64,12 +64,11 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 6. Manually install:
 - 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/)
 - [Beardie](https://github.com/Stillness-2/beardie)
-- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/)
-- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10052)
+- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/) & [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
+- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10072)
 - [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam)
 - [Pokemon TCG Live](https://tcg.pokemon.com/en-us/tcgl/)
 - [Sonos](https://support.sonos.com/s/downloads?language=en_US)
-- [Sophos](https://home.sophos.com/en-us.aspx)
 - [Sound Control](https://staticz.com/soundcontrol/)
 
 7. Dropbox settings:
@@ -199,6 +198,10 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 
 30. VS Code
 - Sync to and from other devices > Enable Settings Sync > Sign in with GitHub
+
+31. Beardie settings:
+- Launch at login
+- Enable Browser Extensions
 
 31. Messages settings:
 - iMessage > Enable Messages in iCloud
