@@ -205,6 +205,11 @@ brew install mas
 31. Messages settings:
 - iMessage > Enable Messages in iCloud
 
+32. Sound Control preferences:
+- Check for updates automatically
+- General > Menu Bar Icon: <speaker>
+- Priority Devices > Input > Yeti then C922
+
 10. Remove from Dock:
 - App Store
 - Calendar
@@ -255,8 +260,9 @@ brew install mas
 
 29. GitHub Desktop settings:
 - SIGN IN
-- Configure Git > Use my GitHub account name and email address > Email: <personal email>
-- Advanced > Help GitHub Desktop improve by submitting usage stats (DISABLE)
+- Git > Email: <personal email>
+- Git > Default branch name for new repositories > Other: trunk
+- Advanced > Usage > Help GitHub Desktop improve by submitting usage stats (DISABLE)
 - Migrate .gitconfig from backup
 
 
