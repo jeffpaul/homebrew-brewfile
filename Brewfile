@@ -61,7 +61,6 @@ mas 'Microsoft To Do', id: 1274495053
 cask "amazon-music"
 cask "appcleaner"
 cask "bartender"
-cask "beardedspice"
 cask "cloudup"
 cask "memory-clean-3"
 cask "pdf-expert"
