@@ -37,6 +37,9 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 4. macOS Preferences:
 - Control Center > Bluetooth > Show in Menu Bar
 - Control Center > Menu Bar Only > Clock > Clock Options > Show date: Always
+- Control Center > Sound > Always Show in Menu Bar
+- General > Software Update > Automatic updates > (!) > Install macOS updates
+- General > Software Update > Automatic updates > (!) > Install application updates from the App Store
 - General > Storage > Empty Trash automatically
 - Desktop & Dock > Minimize windows using: Genie Effect
 - Desktop & Dock > Minimize windows into application icon
@@ -48,17 +51,7 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - Privacy & Security > FileVault > On (makes sure SSD is securely encrypted)
 - Trackpad > Point & Click > Secondary click > Click with Two Fingers
 
-
-- Dropbox files available offline
-- Desktop & Screen Saver > Desktop > + > Dropbox > ZSUZSI
-
-
-- Software Update > Automatically keep my Mac up to date
-- Software Update > Advanced > Install macOS updates
-- Software Update > Advanced > Install app updates from the App Store
-- Sound > Show volume in menu bar
-
-5. Terminal commands
+5. Terminal commands:
 - Show Library folder: chflags nohidden ~/Library
 - Show hidden files: defaults write com.apple.finder AppleShowAllFiles YES
 - echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
@@ -79,17 +72,17 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - [Sophos](https://home.sophos.com/en-us.aspx)
 - [Sound Control](https://staticz.com/soundcontrol/)
 
-7. Dropbox
+7. Dropbox settings:
 - General > Dropbox badge > Never show
-- Sync > Save hard drive space automatically > On
-- Selective Sync > Choose folders:
+- Sync > Storage of new files: Online-only
+- Select folders to sync to this Mac > Select folders:
   - Downloads
   - Family photos - 2015
   - Family photos - 2019
-  - GitHub
-  - GitLab
+  - Family photos - 2021
   - Music > Amazon Music
   - Music > iTunes > iTunes Media > Music
+- macOS Settings > Screen Saver > Vintage Prints > Options > Choose folder: Dropbox > Family photos - 2021
 
 8. Choosy prefs:
 - Make default browser
@@ -125,28 +118,106 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
   - poststatus
   - cmssecuritysummit
   - thetodogroup
+  - wpsessions
   - indieweb
-- Advanced > Download Location: Dropbox/Downloads
+- Settings > Advanced > Download Location: Dropbox/Downloads
+
+10. Bartender preferences:
+- General > Startup: Launch Bartender at login
+
+13. Memory Clean 3 preferences:
+- Dock Window
+- General > Hide window at startup
+- App Management > Notify me when apps become inactive (DISABLE)
+- Advanced > Threshold level: 2000 MB
+- Advanced > Auto clean
+
+14. Music settings:
+- Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music/iTunes/iTunes Media/Music
+
+15. Safari settings:
+- General > File download location: Dropbox/Downloads
+
+16. Firefox settings:
+- SIGN IN
+- General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
+- Search > Default Search Engine: DuckDuckGo
+- Privacy & Security > Logins and Passwords > DISABLE ALL
+- Privacy & Security > Firefox Data Collection and Use > DISABLE ALL
+- Privacy & Security > Forms and Autofill > DISABLE ALL
+- Privacy & Security > History > Firefox will: Use custom settings for history > (DISABLE) Remember search and form history
+- about:config > (ENABLE) dom.forms.selectSearch
+
+17. Chrome settings:
+- Appearance > Show warning before quitting with commandQ (DISABLE)
+- Downloads: Dropbox/Downloads
+
+18. Mail preferences:
+- General > Downloads folder: Dropbox/Downloads
+
+19. Keybase settings:
+- Files > Enable Finder Integration
+
+20. Local preferences:
+- LOG IN
+
+22. Finder settings:
+- General > Show these items on the desktop: External disks (DISABLE)
+- General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
+- General > New Finder windows show: Dropbox/Downloads
+- Advanced > Show all filename extensions
+- Advanced > Show warning before removing from iCloud Drive (DISABLE)
+- Advanced > When performaing a search > Search the Current Folder
+
+23. Zoom preferences:
+- SIGN IN
+- General > Ask me to confirm when I leave a meeting (DISABLE)
+- General > Add Zoom to macOS menu bar (DISABLE
+- General > Activate the following emojis based on hand gesture recognition
+- Video > Camera > HD
+- Video > My Video > Adjust for low light: Auto
+- Video > Always display participant name on their videos
+- Audio > Automatically join computer audio when joining a meeting
+- Recording > Local Recording > Store my recordings at: Dropbox/Downloads
+
+24. Amazon Music preferences:
+- Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
+- System Preferences > Show notifications for track playing (DISABLE)
+
+```
+25. HP Easy Scan preferences
+- Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
+- Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
+- Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
+```
+
+26. Wavebox settings:
+- Show warning before quitting with commandQ (DISABLE)
+
+28. Bearded Spice preferences:
+- General > Check for Compatibility Updates at Launch
+
+30. VS Code
+- Sync to and from other devices > Enable Settings Sync > Sign in with GitHub
+
+31. Messages settings:
+- iMessage > Enable Messages in iCloud
 
 10. Remove from Dock:
+- App Store
 - Calendar
 - Contacts
 - Facetime
-- iTunes
-- Keynote
+- Freeform
 - Launchpad
 - Mail
 - Maps
+- Music
 - News
-- Numbers
-- Pages
 - Photos
-- Reminders
-- Safari
-- Send to Kindle
-- Siri
-- System Preferences
+- System Settings
 - Terminal
+- TV
 
 11. Keep in Dock:
 - Finder
@@ -163,45 +234,6 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - Pocket Casts
 - Notes
 
-12. Bartender preferences:
-- Menu Items > AirPort - Wi-Fi > Menu bar item should > Hide
-- Menu Items > Airplay Displays > Menu bar item should > Hide
-- Menu Items > Dropbox > Menu bar item should > Hide
-- Menu Items > Sophos Home > Menu bar item should > Hide
-- General > Startup: Launch Bartender at login
-
-13. Memory Clean 3 preferences:
-- Dock Window
-- General > Hide window at startup
-- App Management > (DISABLE) Notify me when apps become inactive
-- Advanced > Threshold level: 2000 MB
-- Advanced > Auto clean
-
-14. Music preferences:
-- Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music
-
-15. Safari preferences:
-- General > File download location: Dropbox/Downloads
-
-16. Firefox preferences:
-- General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
-- Search > Default Search Engine: DuckDuckGo
-- about:config > (ENABLE) dom.forms.selectSearch
-- Privacy & Security > Use custom settings for history > (DISABLE) Remember search and form history
-
-17. Chrome preferences:
-- Advanced > Downloads > Location: Dropbox/Downloads
-- (DISABLE) Warn before quitting
-
-18. Mail preferences:
-- General > Downloads folder: Dropbox/Downloads
-
-19. Keybase settings
-- Files > Enable Finder Integration
-
-20. Local settings
-- Local site path: Dropbox/Local Sites
-
 21. Finder sidebar
 - (KEEP) AirDrop
 - (KEEP) Appications
@@ -215,49 +247,17 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - (ADD) Dropbox/Local Sites
 - (KEEP) Recents
 
-22. Finder preferences
-- General > Show these items on the desktop: (DISABLE) External disks
-- General > Show these items on the desktop: (DISABLE) CDs, DVDs, and iPods
-- General > New Finder windows show: Dropbox/Downloads
-- Advanced > (ENABLE) Show all filename extensions
-- Advanced > (DISALBE) Show warning before removing from iCloud Drive
-- Advanced > When performaing a search > Seath the Current Folder
-
-23. Zoom preferences
-- General > (DISABLE) Ask me to confirm when I leave a meeting
-- Video > Camera > HD
-- Video > Meetings > Always display participant name on their videos
-- Recording > Local Recording > Store my recordings at: Dropbox/Downloads
-
-24. Amazon Music preferences
-- Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
-- (DISABLE) Advanced > Launch automatically on computer startup
-- System Preferences > (DISABLE) Show notifications for track playing
-
-25. HP Easy Scan preferences
-- Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
-- Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
-- Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
-
-26. Wavebox
-- (DISABLE) Warn Before Quitting
-
 27. GPG Keychain
 - Import
 - [Verify git commits](https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da)
 
-28. Sound Control
-- Check for updates automatically
-- General > Menu Bar Icon > [speaker]
-
-29. GitHub Desktop
-- Advanced > (DISABLE) Help GitHub Desktop improve by submitting usage stats
+29. GitHub Desktop settings:
+- SIGN IN
+- Configure Git > Use my GitHub account name and email address > Email: <personal email>
+- Advanced > Help GitHub Desktop improve by submitting usage stats (DISABLE)
 - Migrate .gitconfig from backup
 
-30. VS Code
-- Telemetry: (DISABLE) Enable Telemetry
-- Sync settings from GitHub account
 
-31. Messages
-- iMessage > (ENABLE) Enable Messages in iCloud
+
+
 
