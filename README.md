@@ -69,7 +69,6 @@ brew install mas
 - [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam)
 - [Pokemon TCG Live](https://tcg.pokemon.com/en-us/tcgl/)
 - [Sonos](https://support.sonos.com/s/downloads?language=en_US)
-- [Sound Control](https://staticz.com/soundcontrol/)
 
 7. Dropbox settings:
 - General > Dropbox badge > Never show
