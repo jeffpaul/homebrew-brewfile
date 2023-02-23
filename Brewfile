@@ -60,6 +60,7 @@ mas 'Microsoft To Do', id: 1274495053
 # Other apps
 cask "amazon-music"
 cask "appcleaner"
+cask "appzapper"
 cask "bartender"
 cask "cloudup"
 cask "memory-clean-3"
