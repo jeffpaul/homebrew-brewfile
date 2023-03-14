@@ -40,6 +40,7 @@ cask "gpg-suite"
 
 # Development apps
 cask "github"
+cask "iterm2"
 cask "local"
 cask "visual-studio-code"
 
