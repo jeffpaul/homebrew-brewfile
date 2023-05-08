@@ -5,7 +5,6 @@ cask_args appdir: "/Applications"
 brew analytics off
 tap "homebrew/core"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 brew "mas"
