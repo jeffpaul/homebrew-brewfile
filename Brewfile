@@ -23,10 +23,10 @@ cask "firefox"
 cask "google-chrome"
 
 # Communication apps
+cask "beeper"
 cask "slack"
 cask "wavebox"
 cask "zoom"
-cask "signal"
 
 # Security and Password apps
 cask "avast-security"
