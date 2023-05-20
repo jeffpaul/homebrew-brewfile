@@ -14,6 +14,7 @@ brew "composer"
 brew "git"
 brew "node"
 brew "php"
+brew "svn"
 brew "wp-cli"
 
 # Web applications
