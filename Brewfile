@@ -22,6 +22,7 @@ brew "wp-cli"
 cask "choosy"
 cask "firefox"
 cask "google-chrome"
+cask "microsoft-edge"
 
 # Communication apps
 cask "beeper"
