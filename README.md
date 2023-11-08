@@ -2,6 +2,8 @@
 
 > My macOS Brewfile
 
+After running through the following setup, you can use `brew cu` to upgrade all Mac apps installed via [Brew](https://brew.sh/).  You can also dump your loal Brewfil of current brew/cask/mas entries via `brew bundle bump --file=~/.private/Brewfil`.  To remove an app you can use `brew cask zap <caskname>` to remove the app and preferences, caches, updaters, etc.
+
 0. Try Mike McQuaid's Strap tool (and assuming that goes smoothly then skip the next Step 1)
 ```
 git clone https://github.com/MikeMcQuaid/strap
@@ -27,11 +29,14 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 
 3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) goodness
 
-brew install mas
-~- touch Brewfile~
-~- brew bundle install~
+- Download [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) to the local user directory
 
-- Download [brewfile.sh](https://github.com/jeffpaul/homebrew-brewfile/blob/main/brewfile.sh) to the local user directory
+~- brew install mas~
+
+~- touch Brewfile~
+
+- brew bundle install
+
 - Run `$ brew bundle` in your terminal and watch the magic happen.
 
 4. macOS Preferences:
