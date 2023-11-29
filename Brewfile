@@ -26,6 +26,7 @@ cask "microsoft-edge"
 
 # Communication apps
 cask "beeper"
+cask "element"
 cask "slack"
 cask "wavebox"
 cask "zoom"
