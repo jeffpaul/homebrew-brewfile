@@ -22,11 +22,8 @@ brew "wp-cli"
 cask "choosy"
 cask "firefox"
 cask "google-chrome"
-cask "microsoft-edge"
 
 # Communication apps
-cask "beeper"
-cask "element"
 cask "slack"
 cask "wavebox"
 cask "zoom"
@@ -60,12 +57,10 @@ mas 'Microsoft To Do', id: 1274495053
 
 # Other apps
 cask "amazon-music"
-cask "appcleaner"
 cask "appzapper"
 cask "bartender"
 cask "cloudup"
 cask "memory-clean-3"
 cask "pdf-expert"
 cask "pocket-casts"
-cask "rectangle-pro"
 cask "sound-control"
