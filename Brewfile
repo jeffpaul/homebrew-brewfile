@@ -39,6 +39,7 @@ cask "gpg-suite"
 cask "github"
 cask "iterm2"
 cask "local"
+cask "wordpresscom-studio"
 cask "visual-studio-code"
 
 # File sharing apps
