@@ -24,6 +24,7 @@ cask "firefox"
 cask "google-chrome"
 
 # Communication apps
+cask "notion"
 cask "slack"
 cask "wavebox"
 cask "zoom"
@@ -36,6 +37,7 @@ cask 'openvpn-connect'
 cask "gpg-suite"
 
 # Development apps
+cask "cursor"
 cask "github"
 cask "iterm2"
 cask "local"
