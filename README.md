@@ -124,7 +124,7 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 12. Bartender preferences:
 - General > Startup: Launch Bartender at login
 
-13. Beardie settings:
+13. Beardie settings: (perhaps migrated to Sound Control?)
 - Launch at login
 - Enable Browser Extensions
 
@@ -175,10 +175,11 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
   - woocommerce
   - newspack
   - poststatus
-  - cmssecuritysummit
+  - thewpcc
   - thetodogroup
-  - wpsessions
+  - cmssecuritysummit
   - indieweb
+  - gatherpress
 - Settings > Advanced > Download Location: Dropbox/Downloads
 
 22. Sound Control preferences:
@@ -217,38 +218,23 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - Advanced > Usage > Help GitHub Desktop improve by submitting usage stats (DISABLE)
 - Migrate .gitconfig from backup
 
-29. Remove from Dock:
-- App Store
-- Calendar
-- Contacts
-- Facetime
-- Freeform
-- Launchpad
-- Mail
-- Maps
-- Music
-- News
-- Photos
-- System Settings
-- Terminal
-- TV
-
-30. Keep in Dock:
+29. Keep in Dock:
 - Finder
 - Wavebox
 - Slack
 - Messages
-- Zoom
+- Signal
 - Firefox
-- Microsoft To Do
+- Google Chrome
+- Google Meet
 - Local
 - GitHub Desktop
+- Cursor
 - Amazon Music
-- Sonos
 - Pocket Casts
 - Notes
 
-31. Finder settings:
+30. Finder settings:
 - General > Show these items on the desktop: External disks (DISABLE)
 - General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
 - General > New Finder windows show: Dropbox/Downloads
@@ -256,7 +242,7 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - Advanced > Show warning before removing from iCloud Drive (DISABLE)
 - Advanced > When performaing a search > Search the Current Folder
 
-32. Finder sidebar
+31. Finder sidebar:
 - (KEEP) AirDrop
 - (KEEP) Appications
 - (KEEP) Desktop
@@ -266,12 +252,7 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - (KEEP) Dropbox
 - (ADD) jeffpaul
 - (KEEP) Keybase
-- (ADD) Dropbox/Local Sites
 - (KEEP) Recents
 
-33. Rectangle Pro settings:
-- Restart on wake
-- Check for updates automatically
-- Sync configuration over iCloud
-- Keyboard Shortcuts > Sixths > control+option+Q/W/E/Z/X/C
-- App Layouts > + Layout > Current Layout > Record Shortcut: control+option+S
+32. Load fonts
+- open Font Book, import from fonts
