@@ -2,7 +2,7 @@
 
 > My macOS Brewfile
 
-Before beginning, consider exporting existing macOS Preferences (whether you use to import later or keep as reference, it can't hurt):
+0. Before beginning, consider exporting existing macOS Preferences (whether you use to import later or keep as reference, it can't hurt):
 ```
 # Create a backup directory
 mkdir -p ~/macos_prefs_backup
@@ -41,17 +41,6 @@ echo "✅ macOS preferences backed up to ~/macos_prefs_backup.tar.gz"
 ```
 Save `macos_prefs_backup.tar.gz` to an external drive or cloud storage.
 
-After running through the following setup, you can use `brew cu` to upgrade all Mac apps installed via [Brew](https://brew.sh/).  You can also dump your loal Brewfil of current brew/cask/mas entries via `brew bundle bump --file=~/.private/Brewfil`.  To remove an app you can use `brew cask zap <caskname>` to remove the app and preferences, caches, updaters, etc.
-
-0. Try Mike McQuaid's Strap tool (and assuming that goes smoothly then skip the next Step 1)
-```
-git clone https://github.com/MikeMcQuaid/strap
-cd strap
-bash bin/strap.sh # or bash bin/strap.sh --debug for more debugging output
-```
-
-Alternative to running Strap locally: Open https://strap.mikemcquaid.com/ in your web browser.
-
 1. Install [Homebrew](https://brew.sh/)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -59,38 +48,20 @@ Alternative to running Strap locally: Open https://strap.mikemcquaid.com/ in you
 
 If forced to download Xcode command tools, let's not download ALL of Xcode but the bits we need:
 ```
-touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
-softwareupdate -i -a
-rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
-```
-
-Perhaps, alternatively:
-```
 xcode-select --install
 ```
 
 2. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
 
 3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) goodness
-
-- Download [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) to the local user directory
-
-Alternatively:
 ```
 curl -o ~/Brewfile https://raw.githubusercontent.com/jeffpaul/homebrew-brewfile/main/Brewfile
 ```
 
-~- brew install mas~
-
-~- touch Brewfile~
-
-- brew bundle install
-Alternatively:
+Then...
 ```
 brew bundle --file=~/Brewfile
 ```
-
-- Run `$ brew bundle` in your terminal and watch the magic happen.
 
 - Restore SSH Keys & Configs
 From SSH key backup:
@@ -158,20 +129,21 @@ sudo reboot
 4. macOS Preferences:
 - Control Center > Bluetooth > Show in Menu Bar
 - Control Center > Menu Bar Only > Clock > Clock Options > Show date: Always
-- Control Center > Sound > Always Show in Menu Bar
+- Control Center > Sound > Don't Show in Menu Bar
 - General > Software Update > Automatic updates > (!) > Install macOS updates
 - General > Software Update > Automatic updates > (!) > Install application updates from the App Store
-- General > Storage > Empty Trash automatically
+
 - Desktop & Dock > Minimize windows using: Genie Effect
-- Desktop & Dock > Minimize windows into application icon
-- Desktop & Dock > Automatically hide and show the Dock
-- Desktop & Dock > Show recent applications in Dock (DISABLE)
+- Desktop & Dock > Minimize windows into application icon (ENABLE)
+- Desktop & Dock > Automatically hide and show the Dock (ENABLE)
+- Desktop & Dock > Show suggested and recent apps in Dock (DISABLE)
+- Desktop & Dock > Windows > Drag windows to screen edges to tile (DISABLE)
+- Desktop & Dock > Windows > Drag windows to menu bar to fill screen (DISABLE)
 - Displays > Night Shift > Schedule: Sunset to Sunrise
-- Network > Firewall > On
-- Privacy & Security > Security > Allow applications downloaded from: App Store and identified developers
+- Network > Firewall (ENABLE)
+- Privacy & Security > Security > Allow applications downloaded from: App Store & Known Developers
 - Privacy & Security > FileVault > On (makes sure SSD is securely encrypted)
 - Trackpad > Point & Click > Secondary click > Click with Two Fingers
-- Disable Stage Manager (Open System Settings (Apple menu > System Settings. Go to Desktop & Dock. Scroll down to Stage Manager and toggle it off.)
 
 5. Terminal commands:
 - Show Library folder: chflags nohidden ~/Library
@@ -181,26 +153,43 @@ sudo reboot
   - touch .bash_profile
   - alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
   - source ~/.bash_profile
-  - DAILY CHECK: brewup
+Ensure a DAILY CHECK to run: `brewup`.
 
-6. Chrome settings:
+6. Dropbox settings:
+- Sign in with Dropbox
+- Select folders to sync to this Mac > Select folders:
+  - Downloads
+  - Family photos - 2015
+  - Family photos - 2019
+  - Family photos - 2021
+  - Music > Amazon Music
+  - Music > iTunes > iTunes Media > Music
+- General > Dropbox badge > Never show
+- Sync > Default sync state for new files: Online-only
+- macOS Settings > Screen Saver > Other > Photos > Style: Vintage Prints > Options > Choose folder: Dropbox > Family photos - 2021
+
+7. Keybase settings:
+- Files > Enable Finder Integration
+
+8. Chrome settings:
+- Sign in to Chrome (work & personal)
 - Appearance > Show warning before quitting with commandQ (DISABLE)
 - Downloads: Dropbox/Downloads
 
-7. Firefox settings:
+9. Firefox settings:
 - SIGN IN
 - General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
 - Search > Default Search Engine: DuckDuckGo
-- Privacy & Security > Logins and Passwords > DISABLE ALL
+- Privacy & Security > Passwords > DISABLE ALL
+- Privacy & Security > Autofill > DISABLE ALL
 - Privacy & Security > Firefox Data Collection and Use > DISABLE ALL
-- Privacy & Security > Forms and Autofill > DISABLE ALL
 - Privacy & Security > History > Firefox will: Use custom settings for history > (DISABLE) Remember search and form history
-- about:config > (ENABLE) dom.forms.selectSearch
+- about:config > dom.forms.selectSearch <> `true`
 
-8. Safari settings:
+10. Safari settings:
 - General > File download location: Dropbox/Downloads
 
-9. Choosy prefs:
+11. Choosy prefs:
 - Make default browser
 - Browsers > Firefox, Google Chrome, Safari
 - Advanced > Start Choosy at login
@@ -225,37 +214,23 @@ sudo reboot
   - Enabled > OK
 - About > Register
 
-10. Manually install:
-- 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/)
-- [Beardie](https://github.com/Stillness-2/beardie)
-- [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/) & [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
-- [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10072)
-- [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam)
-- [Pokemon TCG Live](https://tcg.pokemon.com/en-us/tcgl/)
-- [Sonos](https://support.sonos.com/s/downloads?language=en_US)
+```
+12. Manually install:
+~ - 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/) ~
+~ - [Beardie](https://github.com/Stillness-2/beardie) ~
+~ - [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/) & [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) ~
+~ - [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10072) ~
+~ - [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam) ~
+~ - [Sonos](https://support.sonos.com/s/downloads?language=en_US) ~
+```
 
-11. Amazon Music preferences:
+13. Amazon Music preferences:
 - Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
 - System Preferences > Show notifications for track playing (DISABLE)
 
-12. Bartender preferences:
+14. Bartender preferences:
 - General > Startup: Launch Bartender at login
-
-13. Beardie settings: (perhaps migrated to Sound Control?)
-- Launch at login
-- Enable Browser Extensions
-
-14. Dropbox settings:
-- General > Dropbox badge > Never show
-- Sync > Storage of new files: Online-only
-- Select folders to sync to this Mac > Select folders:
-  - Downloads
-  - Family photos - 2015
-  - Family photos - 2019
-  - Family photos - 2021
-  - Music > Amazon Music
-  - Music > iTunes > iTunes Media > Music
-- macOS Settings > Screen Saver > Vintage Prints > Options > Choose folder: Dropbox > Family photos - 2021
+- Apply License Key
 
 ```
 15. HP Easy Scan preferences
@@ -271,7 +246,9 @@ sudo reboot
 - General > Downloads folder: Dropbox/Downloads
 
 18. Memory Clean 3 preferences:
+- Activate License
 - Dock Window
+- General > Start at login
 - General > Hide window at startup
 - App Management > Notify me when apps become inactive (DISABLE)
 - Advanced > Threshold level: 2000 MB
@@ -301,8 +278,9 @@ sudo reboot
 
 22. Sound Control preferences:
 - Check for updates automatically
-- General > Menu Bar Icon: <speaker>
-- Priority Devices > Input > Yeti then C922
+- Appearance > Menu Bar Icon: <speaker>
+- Options > Launch Sound Control at startup (ENABLE)
+- Device Order > Input > Yeti then C922
 
 23. VS Code
 - Sync to and from other devices > Enable Settings Sync > Sign in with GitHub
@@ -313,29 +291,26 @@ sudo reboot
 25. Zoom preferences:
 - SIGN IN
 - General > Ask me to confirm when I leave a meeting (DISABLE)
-- General > Add Zoom to macOS menu bar (DISABLE
-- General > Activate the following emojis based on hand gesture recognition
+- General > Add Zoom to macOS menu bar (DISABLE)
+- General > Activate the following emojis based on hand gesture recognition (ENABLE)
 - Video > Camera > HD
-- Video > My Video > Adjust for low light: Auto
-- Video > Always display participant name on their videos
-- Audio > Automatically join computer audio when joining a meeting
+- Video > Always display participant name on their videos (DISABLE)
+- Audio > Automatically join computer audio when joining (ENABLE)
+- Background & effects > Adjust for low light: Auto (ENABLE)
 - Recording > Local Recording > Store my recordings at: Dropbox/Downloads
 
-26. Keybase settings:
-- Files > Enable Finder Integration
-
-27. GPG Keychain
+26. GPG Keychain
 - Import
 - [Verify git commits](https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da)
 
-28. GitHub Desktop settings:
+27. GitHub Desktop settings:
 - SIGN IN
 - Git > Email: <personal email>
 - Git > Default branch name for new repositories > Other: trunk
 - Advanced > Usage > Help GitHub Desktop improve by submitting usage stats (DISABLE)
 - Migrate .gitconfig from backup
 
-29. Keep in Dock:
+28. Keep in Dock:
 - Finder
 - Wavebox
 - Slack
@@ -346,20 +321,22 @@ sudo reboot
 - Google Meet
 - Local
 - GitHub Desktop
+- VS Code
 - Cursor
 - Amazon Music
 - Pocket Casts
 - Notes
 
-30. Finder settings:
+29. Finder settings:
 - General > Show these items on the desktop: External disks (DISABLE)
 - General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
 - General > New Finder windows show: Dropbox/Downloads
-- Advanced > Show all filename extensions
+- Advanced > Show all filename extensions (ENABLE)
 - Advanced > Show warning before removing from iCloud Drive (DISABLE)
 - Advanced > When performaing a search > Search the Current Folder
+- Advanced > Remove items from the Trash after 30 days (ENABLE)
 
-31. Finder sidebar:
+30. Finder sidebar:
 - (KEEP) AirDrop
 - (KEEP) Appications
 - (KEEP) Desktop
@@ -371,8 +348,11 @@ sudo reboot
 - (KEEP) Keybase
 - (KEEP) Recents
 
-32. Load fonts
+31. Load fonts
 - open Font Book, import from fonts
+
+32. Papriaka
+- Login & Sync
 
 33. FINALLY... Run brew doctor to ensure everything is set up correctly: 
 ```
