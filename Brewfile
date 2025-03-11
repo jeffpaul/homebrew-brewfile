@@ -18,13 +18,14 @@ brew "svn"
 brew "wp-cli"
 
 # Web applications
-# sudo softwareupdate --install-rosetta
 cask "choosy"
+cask "divvy"
 cask "firefox"
 cask "google-chrome"
 
 # Communication apps
 cask "notion"
+cask "signal"
 cask "slack"
 cask "wavebox"
 cask "zoom"
@@ -49,23 +50,22 @@ cask "dropbox"
 
 ## App Store
 mas 'Brother iPrint&Scan', id: 1193539993
-# mas 'Divvy', id: 413857545
 mas 'HP Easy Scan', id: 967004861
 mas 'HP Smart for Desktop', id: 1474276998
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
+mas 'Paprika Recipe Manager 3', id: 1303222628
 mas 'Pixelmator Pro', id: 1289583905
-mas 'Microsoft To Do', id: 1274495053
 
 # Other apps
 cask "amazon-music"
-cask "appzapper"
+cask "appcleaner"
 cask "bartender"
-cask "blender"
-cask "cloudup"
+cask "logitech-g-hub"
 cask "memory-clean-3"
 cask "pdf-expert"
 cask "pocket-casts"
+cask "pokemon-tcg-live"
 cask "screen-studio"
 cask "sound-control"
