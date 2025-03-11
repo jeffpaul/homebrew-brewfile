@@ -2,6 +2,45 @@
 
 > My macOS Brewfile
 
+Before beginning, consider exporting existing macOS Preferences (whether you use to import later or keep as reference, it can't hurt):
+```
+# Create a backup directory
+mkdir -p ~/macos_prefs_backup
+
+# Export all user defaults
+defaults read > ~/macos_prefs_backup/macos_preferences_backup.plist
+
+# Finder Preferences
+defaults read com.apple.finder > ~/macos_prefs_backup/finder_prefs.plist
+
+# Dock Preferences
+defaults read com.apple.dock > ~/macos_prefs_backup/dock_prefs.plist
+
+# Global System Preferences (Trackpad, Keyboard, etc.)
+defaults read NSGlobalDomain > ~/macos_prefs_backup/global_prefs.plist
+
+# Screenshot Preferences
+defaults read com.apple.screencapture > ~/macos_prefs_backup/screencapture_prefs.plist
+
+# Terminal Preferences
+defaults read com.apple.terminal > ~/macos_prefs_backup/terminal_prefs.plist
+
+# Mission Control & Spaces
+defaults read com.apple.spaces > ~/macos_prefs_backup/mission_control_prefs.plist
+
+# Hot Corners
+defaults read com.apple.dock wvous-tl-corner > ~/macos_prefs_backup/hotcorners_tl.txt
+defaults read com.apple.dock wvous-tr-corner > ~/macos_prefs_backup/hotcorners_tr.txt
+defaults read com.apple.dock wvous-bl-corner > ~/macos_prefs_backup/hotcorners_bl.txt
+defaults read com.apple.dock wvous-br-corner > ~/macos_prefs_backup/hotcorners_br.txt
+
+# Archive everything for easy transfer
+tar -czvf ~/macos_prefs_backup.tar.gz ~/macos_prefs_backup/
+
+echo "✅ macOS preferences backed up to ~/macos_prefs_backup.tar.gz"
+```
+Save `macos_prefs_backup.tar.gz` to an external drive or cloud storage.
+
 After running through the following setup, you can use `brew cu` to upgrade all Mac apps installed via [Brew](https://brew.sh/).  You can also dump your loal Brewfil of current brew/cask/mas entries via `brew bundle bump --file=~/.private/Brewfil`.  To remove an app you can use `brew cask zap <caskname>` to remove the app and preferences, caches, updaters, etc.
 
 0. Try Mike McQuaid's Strap tool (and assuming that goes smoothly then skip the next Step 1)
@@ -25,19 +64,96 @@ softwareupdate -i -a
 rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 ```
 
+Perhaps, alternatively:
+```
+xcode-select --install
+```
+
 2. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
 
 3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) goodness
 
 - Download [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) to the local user directory
 
+Alternatively:
+```
+curl -o ~/Brewfile https://raw.githubusercontent.com/jeffpaul/homebrew-brewfile/main/Brewfile
+```
+
 ~- brew install mas~
 
 ~- touch Brewfile~
 
 - brew bundle install
+Alternatively:
+```
+brew bundle --file=~/Brewfile
+```
 
 - Run `$ brew bundle` in your terminal and watch the magic happen.
+
+- Restore SSH Keys & Configs
+From SSH key backup:
+```
+mkdir -p ~/.ssh && cp /path/to/backup/.ssh/* ~/.ssh/
+chmod 600 ~/.ssh/id_rsa
+chmod 644 ~/.ssh/id_rsa.pub
+ssh-add ~/.ssh/id_rsa
+```
+
+Restoring dotfiles:
+```
+cp /path/to/backup/.zshrc ~/
+cp /path/to/backup/.gitconfig ~/
+source ~/.zshrc
+```
+
+- Validate installed files
+```
+brew list
+```
+If any apps are missing, re-run: 
+```
+brew bundle --file=~/Brewfile
+```
+
+- If you want to import macOS Preferences:
+```
+# Unpack the backup
+tar -xzvf ~/macos_prefs_backup.tar.gz -C ~
+
+# Restore system-wide preferences
+defaults import NSGlobalDomain ~/macos_prefs_backup/global_prefs.plist
+
+# Restore Finder settings
+defaults import com.apple.finder ~/macos_prefs_backup/finder_prefs.plist
+killall Finder
+
+# Restore Dock settings
+defaults import com.apple.dock ~/macos_prefs_backup/dock_prefs.plist
+killall Dock
+
+# Restore Screenshot preferences
+defaults import com.apple.screencapture ~/macos_prefs_backup/screencapture_prefs.plist
+killall SystemUIServer
+
+# Restore Terminal preferences
+defaults import com.apple.terminal ~/macos_prefs_backup/terminal_prefs.plist
+
+# Restore Mission Control & Spaces
+defaults import com.apple.spaces ~/macos_prefs_backup/mission_control_prefs.plist
+
+# Restore Hot Corners
+defaults write com.apple.dock wvous-tl-corner -int $(cat ~/macos_prefs_backup/hotcorners_tl.txt)
+defaults write com.apple.dock wvous-tr-corner -int $(cat ~/macos_prefs_backup/hotcorners_tr.txt)
+defaults write com.apple.dock wvous-bl-corner -int $(cat ~/macos_prefs_backup/hotcorners_bl.txt)
+defaults write com.apple.dock wvous-br-corner -int $(cat ~/macos_prefs_backup/hotcorners_br.txt)
+killall Dock
+
+# Restart to apply all settings
+echo "✅ macOS preferences restored! Restarting now..."
+sudo reboot
+```
 
 4. macOS Preferences:
 - Control Center > Bluetooth > Show in Menu Bar
@@ -55,6 +171,7 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 - Privacy & Security > Security > Allow applications downloaded from: App Store and identified developers
 - Privacy & Security > FileVault > On (makes sure SSD is securely encrypted)
 - Trackpad > Point & Click > Secondary click > Click with Two Fingers
+- Disable Stage Manager (Open System Settings (Apple menu > System Settings. Go to Desktop & Dock. Scroll down to Stage Manager and toggle it off.)
 
 5. Terminal commands:
 - Show Library folder: chflags nohidden ~/Library
@@ -256,3 +373,9 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 
 32. Load fonts
 - open Font Book, import from fonts
+
+33. FINALLY... Run brew doctor to ensure everything is set up correctly: 
+```
+brew doctor
+```
+Restart Mac for a fresh start!
