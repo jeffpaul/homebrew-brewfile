@@ -335,6 +335,7 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Advanced > Show warning before removing from iCloud Drive (DISABLE)
 - Advanced > When performaing a search > Search the Current Folder
 - Advanced > Remove items from the Trash after 30 days (ENABLE)
+- Command + Shit + 5 > Options > Save to Dropbox>Downloads
 
 30. Finder sidebar:
 - (KEEP) AirDrop
