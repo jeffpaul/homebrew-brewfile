@@ -175,6 +175,7 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Sign in to Chrome (work & personal)
 - Appearance > Show warning before quitting with commandQ (DISABLE)
 - Downloads: Dropbox/Downloads
+- Browse to https://meet.google.com, click "Install" for the PWA app.
 
 9. Firefox settings:
 - SIGN IN
@@ -200,15 +201,8 @@ Ensure a DAILY CHECK to run: `brewup`.
   - Rule: Web address contains: hangouts.google.com
   - Rule: Web address contains: meet.google.com
   - Rule: Web address contains: google.com/hangouts
-  - Always use this browser... Google Chrome
+  - Always use this browser... Browse: Google Meet
   - Enabled > OK
-- Rules > +
-  - Title: Yomechas
-  - Any of the following are true
-  - Rule: Web address contains: regsysinc.com
-  - Rule: Web address contains: yomechas.org
-  - Always use this browser... Safari
-  - Enabled > OK  
 - Rules > (EDIT) Default behavior
   - Always user this browser... Firefox
   - Enabled > OK
