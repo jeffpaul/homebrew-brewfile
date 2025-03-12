@@ -19,7 +19,6 @@ brew "wp-cli"
 
 # Web applications
 cask "choosy"
-cask "divvy"
 cask "firefox"
 cask "google-chrome"
 
@@ -50,6 +49,7 @@ cask "dropbox"
 
 ## App Store
 mas 'Brother iPrint&Scan', id: 1193539993
+mas 'Divvy - Window Manager', id: 413857545
 mas 'HP Easy Scan', id: 967004861
 mas 'HP Smart for Desktop', id: 1474276998
 mas 'Keynote', id: 409183694
