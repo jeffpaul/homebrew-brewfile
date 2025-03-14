@@ -143,6 +143,7 @@ sudo reboot
 - Network > Firewall (ENABLE)
 - Privacy & Security > Security > Allow applications downloaded from: App Store & Known Developers
 - Privacy & Security > FileVault > On (makes sure SSD is securely encrypted)
+- Trackpad > Point & Click > Quiet Click (ENABLED)
 - Trackpad > Point & Click > Secondary click > Click with Two Fingers
 
 5. Terminal commands:
