@@ -317,7 +317,7 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Local
 - GitHub Desktop
 - VS Code
-- Cursor
+- Claude
 - Amazon Music
 - Pocket Casts
 - Notes
