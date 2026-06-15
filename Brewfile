@@ -37,7 +37,8 @@ cask 'openvpn-connect'
 cask "gpg-suite"
 
 # Development apps
-cask "cursor"
+cask "claude"
+cask "claude-code"
 cask "github"
 cask "iterm2"
 cask "local"
