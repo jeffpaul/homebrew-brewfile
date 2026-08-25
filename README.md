@@ -259,9 +259,8 @@ Ensure a DAILY CHECK to run: `brewup`.
 
 21. Slack settings
 - Workspaces:
-  - 10up
+  - fueled
   - wordpress
-  - woocommerce
   - newspack
   - poststatus
   - thewpcc
@@ -283,29 +282,18 @@ Ensure a DAILY CHECK to run: `brewup`.
 24. Wavebox settings:
 - Show warning before quitting with commandQ (DISABLE)
 
-25. Zoom preferences:
-- SIGN IN
-- General > Ask me to confirm when I leave a meeting (DISABLE)
-- General > Add Zoom to macOS menu bar (DISABLE)
-- General > Activate the following emojis based on hand gesture recognition (ENABLE)
-- Video > Camera > HD
-- Video > Always display participant name on their videos (DISABLE)
-- Audio > Automatically join computer audio when joining (ENABLE)
-- Background & effects > Adjust for low light: Auto (ENABLE)
-- Recording > Local Recording > Store my recordings at: Dropbox/Downloads
-
-26. GPG Keychain
+25. GPG Keychain
 - Import
 - [Verify git commits](https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da)
 
-27. GitHub Desktop settings:
+26. GitHub Desktop settings:
 - SIGN IN
 - Git > Email: <personal email>
 - Git > Default branch name for new repositories > Other: trunk
 - Advanced > Usage > Help GitHub Desktop improve by submitting usage stats (DISABLE)
 - Migrate .gitconfig from backup
 
-28. Keep in Dock:
+27. Keep in Dock:
 - Finder
 - Wavebox
 - Slack
@@ -319,10 +307,9 @@ Ensure a DAILY CHECK to run: `brewup`.
 - VS Code
 - Claude
 - Amazon Music
-- Pocket Casts
 - Notes
 
-29. Finder settings:
+28. Finder settings:
 - General > Show these items on the desktop: External disks (DISABLE)
 - General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
 - General > New Finder windows show: Dropbox/Downloads
@@ -332,7 +319,7 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Advanced > Remove items from the Trash after 30 days (ENABLE)
 - Command + Shit + 5 > Options > Save to Dropbox>Downloads
 
-30. Finder sidebar:
+29. Finder sidebar:
 - (KEEP) AirDrop
 - (KEEP) Appications
 - (KEEP) Desktop
@@ -344,13 +331,13 @@ Ensure a DAILY CHECK to run: `brewup`.
 - (KEEP) Keybase
 - (KEEP) Recents
 
-31. Load fonts
+30. Load fonts
 - open Font Book, import from fonts
 
-32. Papriaka
+31. Papriaka
 - Login & Sync
 
-33. FINALLY... Run brew doctor to ensure everything is set up correctly: 
+32. FINALLY... Run brew doctor to ensure everything is set up correctly: 
 ```
 brew doctor
 ```
