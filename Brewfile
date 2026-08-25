@@ -27,18 +27,16 @@ cask "notion"
 cask "signal"
 cask "slack"
 cask "wavebox"
-cask "zoom"
 
 # Security and Password apps
 cask "avast-security"
 cask "bitwarden"
 cask "keybase"
-cask 'openvpn-connect'
+cask "openvpn-connect"
 cask "gpg-suite"
 
 # Development apps
 cask "claude"
-cask "claude-code"
 cask "github"
 cask "iterm2"
 cask "local"
@@ -66,7 +64,6 @@ cask "bartender"
 cask "logitech-g-hub"
 cask "memory-clean-3"
 cask "pdf-expert"
-cask "pocket-casts"
 cask "pokemon-tcg-live"
 cask "screen-studio"
 cask "sound-control"
