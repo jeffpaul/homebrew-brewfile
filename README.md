@@ -64,19 +64,23 @@ brew bundle --file=~/Brewfile
 ```
 
 - Restore SSH Keys & Configs
-From SSH key backup:
+From Bitwarden (SSH & GPG key backup items):
 ```
-mkdir -p ~/.ssh && cp /path/to/backup/.ssh/* ~/.ssh/
-chmod 600 ~/.ssh/id_rsa
-chmod 644 ~/.ssh/id_rsa.pub
-ssh-add ~/.ssh/id_rsa
+# Copy the armored key blocks out of Bitwarden, save as files, then:
+mkdir -p ~/.ssh
+chmod 600 ~/.ssh/id_ed25519
+chmod 644 ~/.ssh/id_ed25519.pub
+ssh-add ~/.ssh/id_ed25519
+
+# Import GPG key via GPG Keychain: File > Import > select the .asc file from Bitwarden
 ```
 
 Restoring dotfiles:
 ```
-cp /path/to/backup/.zshrc ~/
-cp /path/to/backup/.gitconfig ~/
+git clone https://github.com/jeffpaul/dotfiles ~/dotfiles
+# symlink or copy .zshrc, .zprofile, .bash_profile, .gitconfig, .npmrc from ~/dotfiles
 source ~/.zshrc
+source ~/.zprofile
 ```
 
 - Validate installed files
