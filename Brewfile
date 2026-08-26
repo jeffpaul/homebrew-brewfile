@@ -54,7 +54,6 @@ mas 'Paprika Recipe Manager 3', id: 1303222628
 mas 'Pixelmator Pro', id: 1289583905
 
 # Other apps
-softwareupdate --install-rosetta --agree-to-license ## needed for Divvy
 cask "appcleaner"
 cask "bartender"
 cask "divvy"
