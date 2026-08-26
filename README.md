@@ -251,14 +251,14 @@ Ensure a DAILY CHECK to run: `brewup`.
 16. Mail preferences:
 - General > Downloads folder: Dropbox/Downloads
 
-17. Memory Clean 3 preferences:
+17. Memory Meter 3 preferences:
 - Activate License
 - Dock Window
 - General > Start at login
 - General > Hide window at startup
 - App Management > Notify me when apps become inactive (DISABLE)
 - Advanced > Threshold level: 2000 MB
-- Advanced > Auto clean
+- Advanced > Auto refresh
 
 18. Messages settings:
 - iMessage > Enable Messages in iCloud
