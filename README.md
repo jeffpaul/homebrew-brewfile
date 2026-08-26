@@ -200,12 +200,12 @@ Ensure a DAILY CHECK to run: `brewup`.
 
 9. Firefox settings:
 - SIGN IN
-- General > Files and Applications > Downloads > Save files to: Dropbox/Downloads
+- Downloads > Save files to: Dropbox/Downloads
 - Search > Default Search Engine: DuckDuckGo
-- Privacy & Security > Passwords > DISABLE ALL
-- Privacy & Security > Autofill > DISABLE ALL
-- Privacy & Security > Firefox Data Collection and Use > DISABLE ALL
-- Privacy & Security > History > Firefox will: Use custom settings for history > (DISABLE) Remember search and form history
+- Privacy and security > Passwords > DISABLE ALL
+- Privacy and security > Autofill > DISABLE ALL
+- Privacy and security > Firefox Data Collection and Use > DISABLE ALL
+- Privacy and security > History > Firefox will: Use custom settings for history > (DISABLE) Remember search and form history
 - about:config > dom.forms.selectSearch <> `true`
 
 10. Safari settings:
@@ -229,39 +229,29 @@ Ensure a DAILY CHECK to run: `brewup`.
   - Enabled > OK
 - About > Register
 
-```
-12. Manually install:
-~ - 1.1.1.1 DNS [setup instructions](https://1.1.1.1/dns/) ~
-~ - [Beardie](https://github.com/Stillness-2/beardie) ~
-~ - [Blue Sherpa for Blue Yeti mic](https://www.bluedesigns.com/products/sherpa/) & [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) ~
-~ - [Brother iPrint&Scan Push Scan Tool](https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=ads2800w_all&os=10072) ~
-~ - [Logitech HD Pro Webcam C920](https://support.logi.com/hc/en-us/articles/360053977993-Downloads-C922x-Pro-Stream-1080p-Webcam) ~
-~ - [Sonos](https://support.sonos.com/s/downloads?language=en_US) ~
-```
-
-13. Amazon Music preferences:
+12. Amazon Music preferences:
 - Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
 - System Preferences > Show notifications for track playing (DISABLE)
 - System Preferences > Launch automatically on computer startup (DISABLE)
 
-14. Bartender preferences:
+13. Bartender preferences:
 - General > Startup: Launch Bartender at login
 - Apply License Key
 
 ```
-15. HP Easy Scan preferences
+14. HP Easy Scan preferences
 - Scan to Computer > Save as Editable Text (OCR) > Scan To: Dropbox/Downloads
 - Scan to Computer > Save as JPEG > Scan To: Dropbox/Downloads
 - Scan to Computer > Save as PDF > Scan To: Dropbox/Downloads
 ```
 
-16. Local preferences:
+15. Local preferences:
 - LOG IN
 
-17. Mail preferences:
+16. Mail preferences:
 - General > Downloads folder: Dropbox/Downloads
 
-18. Memory Clean 3 preferences:
+17. Memory Clean 3 preferences:
 - Activate License
 - Dock Window
 - General > Start at login
@@ -270,15 +260,15 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Advanced > Threshold level: 2000 MB
 - Advanced > Auto clean
 
-19. Messages settings:
+18. Messages settings:
 - iMessage > Enable Messages in iCloud
 - iMessage > Sync Now
 - Launch Contacts app > Settings > Accounts (+) > Google > <Gmail account> > Select Contacts only
 
-20. Music settings:
+19. Music settings:
 - Files > Music Media folder location: /Users/jeffpaul/Dropbox/Music/iTunes/iTunes Media/Music
 
-21. Slack settings
+20. Slack settings
 - Workspaces:
   - fueled
   - wordpress
@@ -291,30 +281,30 @@ Ensure a DAILY CHECK to run: `brewup`.
   - gatherpress
 - Settings > Advanced > Download Location: Dropbox/Downloads
 
-22. Sound Control preferences:
+21. Sound Control preferences:
 - Check for updates automatically
 - Appearance > Menu Bar Icon: <speaker>
 - Options > Launch Sound Control at startup (ENABLE)
 - Device Order > Input > Yeti then C922
 
-23. VS Code
+22. VS Code
 - Sync to and from other devices > Enable Settings Sync > Sign in with GitHub
 
-24. Wavebox settings:
+23. Wavebox settings:
 - Show warning before quitting with commandQ (DISABLE)
 
-25. GPG Keychain
+24. GPG Keychain
 - Import
 - [Verify git commits](https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da)
 
-26. GitHub Desktop settings:
+25. GitHub Desktop settings:
 - SIGN IN
 - Git > Email: <personal email>
 - Git > Default branch name for new repositories > Other: trunk
 - Advanced > Usage > Help GitHub Desktop improve by submitting usage stats (DISABLE)
 - Migrate .gitconfig from backup
 
-27. Keep in Dock:
+26. Keep in Dock:
 - Finder
 - Wavebox
 - Slack
@@ -330,7 +320,7 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Amazon Music
 - Notes
 
-28. Finder settings:
+27. Finder settings:
 - General > Show these items on the desktop: External disks (DISABLE)
 - General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
 - General > New Finder windows show: Dropbox/Downloads
@@ -346,7 +336,7 @@ defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
 ```
 
-29. Finder sidebar:
+28. Finder sidebar:
 - (KEEP) AirDrop
 - (KEEP) Appications
 - (KEEP) Desktop
@@ -358,13 +348,13 @@ killall Finder
 - (KEEP) Keybase
 - (KEEP) Recents
 
-30. Load fonts
+29. Load fonts
 - open Font Book, import from fonts
 
-31. Papriaka
+30. Papriaka
 - Login & Sync
 
-32. FINALLY... Run brew doctor to ensure everything is set up correctly: 
+31. FINALLY... Run brew doctor to ensure everything is set up correctly: 
 ```
 brew doctor
 ```
