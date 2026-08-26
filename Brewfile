@@ -2,10 +2,8 @@
 cask_args appdir: "/Applications"
 
 # Homebrew basics
-brew analytics off
-tap "homebrew/bundle"
+brew trust buo/cask-upgrade
 tap "buo/cask-upgrade"
-tap "homebrew/cask-fonts"
 brew "mas"
 brew "cask"
 
@@ -41,7 +39,7 @@ cask "claude"
 cask "github"
 cask "iterm2"
 cask "local"
-cask "ollama"
+cask "ollama-app"
 cask "wordpresscom-studio"
 cask "visual-studio-code"
 
@@ -50,19 +48,16 @@ cask "dropbox"
 
 ## App Store
 mas 'Brother iPrint&Scan', id: 1193539993
-mas 'Divvy - Window Manager', id: 413857545
 mas 'HP Easy Scan', id: 967004861
 mas 'HP Smart for Desktop', id: 1474276998
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
 mas 'Paprika Recipe Manager 3', id: 1303222628
 mas 'Pixelmator Pro', id: 1289583905
 
 # Other apps
-cask "amazon-music"
+softwareupdate --install-rosetta --agree-to-license ## needed for Divvy
 cask "appcleaner"
 cask "bartender"
+cask "divvy"
 cask "logitech-g-hub"
 cask "memory-meter-3"
 cask "pdf-expert"
