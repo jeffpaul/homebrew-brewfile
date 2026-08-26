@@ -53,6 +53,11 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+then allow older Intel apps:
+```
+softwareupdate --install-rosetta --agree-to-license
+```
+
 then (generally as prompted at the end of the Homebrew install) finish setup and disable analytics capture:
 ```
 echo >> /Users/jeffpaul/.zprofile
@@ -336,6 +341,12 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Advanced > When performaing a search > Search the Current Folder
 - Advanced > Remove items from the Trash after 30 days (ENABLE)
 - Command + Shit + 5 > Options > Save to Dropbox>Downloads
+- Set Finder to show .dotfiles
+
+```
+defaults write com.apple.finder AppleShowAllFiles YES
+killall Finder
+```
 
 29. Finder sidebar:
 - (KEEP) AirDrop
