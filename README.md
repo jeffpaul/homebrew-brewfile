@@ -53,6 +53,14 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+then (generally as prompted at the end of the Homebrew install) finish setup and disable analytics capture:
+```
+echo >> /Users/jeffpaul/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/jeffpaul/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+brew analytics off
+```
+
 2. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
 
 3. Drink from that [Brewfile](https://github.com/jeffpaul/homebrew-brewfile/blob/main/Brewfile) goodness
