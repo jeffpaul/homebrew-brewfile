@@ -239,6 +239,7 @@ Ensure a DAILY CHECK to run: `brewup`.
 13. Amazon Music preferences:
 - Music Management > Download Location > /Users/jeffpaul/Dropbox/Music/Amazon Music
 - System Preferences > Show notifications for track playing (DISABLE)
+- System Preferences > Launch automatically on computer startup (DISABLE)
 
 14. Bartender preferences:
 - General > Startup: Launch Bartender at login
