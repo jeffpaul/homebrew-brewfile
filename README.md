@@ -149,19 +149,17 @@ Amazon Music via https://music.amazon.com/help/apps.
 Keynote, Numbers, Pages via mac App Store.
 
 4. macOS Preferences:
-- Control Center > Bluetooth > Show in Menu Bar
-- Control Center > Menu Bar Only > Clock > Clock Options > Show date: Always
-- Control Center > Sound > Don't Show in Menu Bar
-- General > Software Update > Automatic updates > (!) > Install macOS updates
-- General > Software Update > Automatic updates > (!) > Install application updates from the App Store
-
-- Desktop & Dock > Minimize windows using: Genie Effect
+- Desktop & Dock > Minimize window animation: Genie Effect
 - Desktop & Dock > Minimize windows into application icon (ENABLE)
 - Desktop & Dock > Automatically hide and show the Dock (ENABLE)
 - Desktop & Dock > Show suggested and recent apps in Dock (DISABLE)
 - Desktop & Dock > Windows > Drag windows to screen edges to tile (DISABLE)
 - Desktop & Dock > Windows > Drag windows to menu bar to fill screen (DISABLE)
 - Displays > Night Shift > Schedule: Sunset to Sunrise
+- General > Software Update > Automatic updates > (!) > Install macOS updates
+- Menu Bar > Bluetooth (ENABLE)
+- Menu Bar > Clock Options > Show date (ENABLED)
+- Menu Bar > Sound (DISABLE)
 - Network > Firewall (ENABLE)
 - Privacy & Security > Security > Allow applications downloaded from: App Store & Known Developers
 - Privacy & Security > FileVault > On (makes sure SSD is securely encrypted)
