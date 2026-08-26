@@ -42,13 +42,15 @@ echo "✅ macOS preferences backed up to ~/macos_prefs_backup.tar.gz"
 Save `macos_prefs_backup.tar.gz` to an external drive or cloud storage.
 
 1. Install [Homebrew](https://brew.sh/)
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
 
-If forced to download Xcode command tools, let's not download ALL of Xcode but the bits we need:
+Start with the minimal Xcode command tools, not downloading ALL of Xcode but the bits we need:
 ```
 xcode-select --install
+```
+
+...then proceed with the Homebrew install:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 2. Sign into the Mac App store, so that `mas` app installs work via Homebrew.
