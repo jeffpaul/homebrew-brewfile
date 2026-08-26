@@ -139,6 +139,8 @@ killall Dock
 echo "✅ macOS preferences restored! Restarting now..."
 sudo reboot
 ```
+Manual installs:
+Via mac App Store... Keynote, Numbers, Pages
 
 4. macOS Preferences:
 - Control Center > Bluetooth > Show in Menu Bar
