@@ -140,7 +140,8 @@ echo "✅ macOS preferences restored! Restarting now..."
 sudo reboot
 ```
 Manual installs:
-Via mac App Store... Keynote, Numbers, Pages
+Amazon Music via https://music.amazon.com/help/apps.
+Keynote, Numbers, Pages via mac App Store.
 
 4. macOS Preferences:
 - Control Center > Bluetooth > Show in Menu Bar
