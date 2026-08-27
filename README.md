@@ -282,7 +282,7 @@ Ensure a DAILY CHECK to run: `brewup`.
 
 21. Sound Control preferences:
 - Check for updates automatically
-- Appearance > Menu Bar Icon: <speaker>
+- Appearance > Menu Bar Icon: Speaker Volume
 - Options > Launch Sound Control at startup (ENABLE)
 - Device Order > Input > Yeti then C922
 
@@ -318,18 +318,18 @@ Ensure a DAILY CHECK to run: `brewup`.
 - Claude
 - Amazon Music
 - Notes
+- Reminders
 
 27. Finder settings:
 - General > Show these items on the desktop: External disks (DISABLE)
 - General > Show these items on the desktop: CDs, DVDs, and iPods (DISABLE)
 - General > New Finder windows show: Dropbox/Downloads
+- General > Sync Desktop & Documents folders (ENABLE)
 - Advanced > Show all filename extensions (ENABLE)
 - Advanced > Show warning before removing from iCloud Drive (DISABLE)
 - Advanced > When performaing a search > Search the Current Folder
 - Advanced > Remove items from the Trash after 30 days (ENABLE)
-- Command + Shit + 5 > Options > Save to Dropbox>Downloads
 - Set Finder to show .dotfiles
-
 ```
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
@@ -353,8 +353,13 @@ killall Finder
 30. Papriaka
 - Login & Sync
 
-31. FINALLY... Run brew doctor to ensure everything is set up correctly: 
+31. Notes
+- System Settings > Notes > Allow notifications (ENABLE)
+- System Settings > Notes > Alert Style: Persistent
+
+32. FINALLY... Run brew doctor to ensure everything is set up correctly: 
 ```
 brew doctor
 ```
+
 Restart Mac for a fresh start!
