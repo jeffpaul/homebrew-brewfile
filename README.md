@@ -276,7 +276,6 @@ Ensure a DAILY CHECK to run: `brewup`.
   - poststatus
   - thewpcc
   - thetodogroup
-  - cmssecuritysummit
   - indieweb
   - gatherpress
 - Settings > Advanced > Download Location: Dropbox/Downloads
