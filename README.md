@@ -357,7 +357,14 @@ killall Finder
 - System Settings > Notes > Allow notifications (ENABLE)
 - System Settings > Notes > Alert Style: Persistent
 
-32. FINALLY... Run brew doctor to ensure everything is set up correctly: 
+32. Claude
+After installing Claude and connecting to Dropbox, remove the `~/.claude` directory and `~/.claude.json` file then do:
+```
+ln -s ~/Dropbox/dotfiles/claude.json ~/.claude.json
+ln -s ~/Dropbox/dotfiles/claude ~/.claude
+```
+
+33. FINALLY... Run brew doctor to ensure everything is set up correctly: 
 ```
 brew doctor
 ```
